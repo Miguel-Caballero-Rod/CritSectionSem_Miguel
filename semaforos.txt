@@ -1,0 +1,3219 @@
+Script started on 2023-02-16 09:10:15+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="113" LINES="31"]
+[?2004h]0;alumno@aula431: ~[01;32malumno@aula431[00m:[01;34m~[00m$ ^[[200~git@github.com:Miguel-Caballero-Rod/semaphore_M.git~[K[1Pgit@github.com:Miguel-Caballero-Rod/semaphore_M.git[1Pgit@github.com:Miguel-Caballero-Rod/semaphore_M.git[1Pgit@github.com:Miguel-Caballero-Rod/semaphore_M.git[1Pgit@github.com:Miguel-Caballero-Rod/semaphore_M.git[1Pgit@github.com:Miguel-Caballero-Rod/semaphore_M.git[2Pgit@github.com:Miguel-Caballero-Rod/semaphore_M.git[Cgit@github.com:Miguel-Caballero-Rod/semaphore_M.gitigit@github.com:Miguel-Caballero-Rod/semaphore_M.gittgit@github.com:Miguel-Caballero-Rod/semaphore_M.git git@github.com:Miguel-Caballero-Rod/semaphore_M.gitcgit@github.com:Miguel-Caballero-Rod/semaphore_M.gitlgit@github.com:Miguel-Caballero-Rod/semaphore_M.gitogit@github.com:Miguel-Caballero-Rod/semaphore_M.gitngit@github.com:Miguel-Caballero-Rod/semaphore_M.gitegit@github.com:Miguel-Caballero-Rod/semaphore_M.git
+[?2004lgit: 'clonegit@github.com:Miguel-Caballero-Rod/semaphore_M.git' no es un comando de git. Mira 'git --help'.
+[?2004h]0;alumno@aula431: ~[01;32malumno@aula431[00m:[01;34m~[00m$ git clonegit@github.com:Miguel-Caballero-Rod/semaphore_M.git git@github.com:Miguel-Caballero-Rod/semaphore_M.git
+[?2004lClonando en 'semaphore_M'...
+The authenticity of host 'github.com (140.82.121.4)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+warning: Pareces haber clonado un repositorio sin contenido.
+[?2004h]0;alumno@aula431: ~[01;32malumno@aula431[00m:[01;34m~[00m$ ls
+[?2004l 01.py       [0m[01;34mDescargas[0m               multiprocessing.txt   semaforos.txt                   Untitled3.ipynb
+ 02.py       [01;34mDocumentos[0m              [01;34mMúsica[0m                [01;34msemaphore_M[0m                     Untitled4.ipynb
+ 03112.cpp   [01;34mEscritorio[0m              os                    [01;34msnap[0m                            Untitled5.ipynb
+ 0311.cpp    [01;34mGIT-y-multiprocessing[0m   [01;34mPlantillas[0m            [01;31mspark-3.2.1-bin-hadoop3.2.tgz[0m   Untitled.ipynb
+ 04.py       [01;34mImágenes[0m                [01;34mPúblico[0m               Untitled1.ipynb                 [01;34mvenv[0m
+ [01;32ma.out[0m      [01;34m'INF 1º'[0m                 [40;31;01mpyspark[0m               Untitled2.ipynb                 [01;34mVídeos[0m
+[?2004h]0;alumno@aula431: ~[01;32malumno@aula431[00m:[01;34m~[00m$ cd semaphore_M/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit clone [7mgit@github.com:PabloBejarano10/SeccionCr-tica_AlgoritmoDeDecker.git[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit@github.com:PabloBejarano10/SeccionCr-tica_AlgoritmoDeDecker.git
+[?2004lClonando en 'SeccionCr-tica_AlgoritmoDeDecker'...
+remote: Enumerating objects: 65, done.[K
+remote: Counting objects:   1% (1/65)[Kremote: Counting objects:   3% (2/65)[Kremote: Counting objects:   4% (3/65)[Kremote: Counting objects:   6% (4/65)[Kremote: Counting objects:   7% (5/65)[Kremote: Counting objects:   9% (6/65)[Kremote: Counting objects:  10% (7/65)[Kremote: Counting objects:  12% (8/65)[Kremote: Counting objects:  13% (9/65)[Kremote: Counting objects:  15% (10/65)[Kremote: Counting objects:  16% (11/65)[Kremote: Counting objects:  18% (12/65)[Kremote: Counting objects:  20% (13/65)[Kremote: Counting objects:  21% (14/65)[Kremote: Counting objects:  23% (15/65)[Kremote: Counting objects:  24% (16/65)[Kremote: Counting objects:  26% (17/65)[Kremote: Counting objects:  27% (18/65)[Kremote: Counting objects:  29% (19/65)[Kremote: Counting objects:  30% (20/65)[Kremote: Counting objects:  32% (21/65)[Kremote: Counting objects:  33% (22/65)[Kremote: Counting objects:  35% (23/65)[Kremote: Counting objects:  36% (24/65)[Kremote: Counting objects:  38% (25/65)[Kremote: Counting objects:  40% (26/65)[Kremote: Counting objects:  41% (27/65)[Kremote: Counting objects:  43% (28/65)[Kremote: Counting objects:  44% (29/65)[Kremote: Counting objects:  46% (30/65)[Kremote: Counting objects:  47% (31/65)[Kremote: Counting objects:  49% (32/65)[Kremote: Counting objects:  50% (33/65)[Kremote: Counting objects:  52% (34/65)[Kremote: Counting objects:  53% (35/65)[Kremote: Counting objects:  55% (36/65)[Kremote: Counting objects:  56% (37/65)[Kremote: Counting objects:  58% (38/65)[Kremote: Counting objects:  60% (39/65)[Kremote: Counting objects:  61% (40/65)[Kremote: Counting objects:  63% (41/65)[Kremote: Counting objects:  64% (42/65)[Kremote: Counting objects:  66% (43/65)[Kremote: Counting objects:  67% (44/65)[Kremote: Counting objects:  69% (45/65)[Kremote: Counting objects:  70% (46/65)[Kremote: Counting objects:  72% (47/65)[Kremote: Counting objects:  73% (48/65)[Kremote: Counting objects:  75% (49/65)[Kremote: Counting objects:  76% (50/65)[Kremote: Counting objects:  78% (51/65)[Kremote: Counting objects:  80% (52/65)[Kremote: Counting objects:  81% (53/65)[Kremote: Counting objects:  83% (54/65)[Kremote: Counting objects:  84% (55/65)[Kremote: Counting objects:  86% (56/65)[Kremote: Counting objects:  87% (57/65)[Kremote: Counting objects:  89% (58/65)[Kremote: Counting objects:  90% (59/65)[Kremote: Counting objects:  92% (60/65)[Kremote: Counting objects:  93% (61/65)[Kremote: Counting objects:  95% (62/65)[Kremote: Counting objects:  96% (63/65)[Kremote: Counting objects:  98% (64/65)[Kremote: Counting objects: 100% (65/65)[Kremote: Counting objects: 100% (65/65), done.[K
+remote: Compressing objects:   2% (1/46)[Kremote: Compressing objects:   4% (2/46)[Kremote: Compressing objects:   6% (3/46)[Kremote: Compressing objects:   8% (4/46)[Kremote: Compressing objects:  10% (5/46)[Kremote: Compressing objects:  13% (6/46)[Kremote: Compressing objects:  15% (7/46)[Kremote: Compressing objects:  17% (8/46)[Kremote: Compressing objects:  19% (9/46)[Kremote: Compressing objects:  21% (10/46)[Kremote: Compressing objects:  23% (11/46)[Kremote: Compressing objects:  26% (12/46)[Kremote: Compressing objects:  28% (13/46)[Kremote: Compressing objects:  30% (14/46)[Kremote: Compressing objects:  32% (15/46)[Kremote: Compressing objects:  34% (16/46)[Kremote: Compressing objects:  36% (17/46)[Kremote: Compressing objects:  39% (18/46)[Kremote: Compressing objects:  41% (19/46)[Kremote: Compressing objects:  43% (20/46)[Kremote: Compressing objects:  45% (21/46)[Kremote: Compressing objects:  47% (22/46)[Kremote: Compressing objects:  50% (23/46)[Kremote: Compressing objects:  52% (24/46)[Kremote: Compressing objects:  54% (25/46)[Kremote: Compressing objects:  56% (26/46)[Kremote: Compressing objects:  58% (27/46)[Kremote: Compressing objects:  60% (28/46)[Kremote: Compressing objects:  63% (29/46)[Kremote: Compressing objects:  65% (30/46)[Kremote: Compressing objects:  67% (31/46)[Kremote: Compressing objects:  69% (32/46)[Kremote: Compressing objects:  71% (33/46)[Kremote: Compressing objects:  73% (34/46)[Kremote: Compressing objects:  76% (35/46)[Kremote: Compressing objects:  78% (36/46)[Kremote: Compressing objects:  80% (37/46)[Kremote: Compressing objects:  82% (38/46)[Kremote: Compressing objects:  84% (39/46)[Kremote: Compressing objects:  86% (40/46)[Kremote: Compressing objects:  89% (41/46)[Kremote: Compressing objects:  91% (42/46)[Kremote: Compressing objects:  93% (43/46)[Kremote: Compressing objects:  95% (44/46)[Kremote: Compressing objects:  97% (45/46)[Kremote: Compressing objects: 100% (46/46)[Kremote: Compressing objects: 100% (46/46), done.[K
+Recibiendo objetos:   1% (1/65)Recibiendo objetos:   3% (2/65)Recibiendo objetos:   4% (3/65)Recibiendo objetos:   6% (4/65)Recibiendo objetos:   7% (5/65)Recibiendo objetos:   9% (6/65)Recibiendo objetos:  10% (7/65)Recibiendo objetos:  12% (8/65)Recibiendo objetos:  13% (9/65)Recibiendo objetos:  15% (10/65)Recibiendo objetos:  16% (11/65)Recibiendo objetos:  18% (12/65)Recibiendo objetos:  20% (13/65)Recibiendo objetos:  21% (14/65)Recibiendo objetos:  23% (15/65)Recibiendo objetos:  24% (16/65)Recibiendo objetos:  26% (17/65)Recibiendo objetos:  27% (18/65)Recibiendo objetos:  29% (19/65)Recibiendo objetos:  30% (20/65)Recibiendo objetos:  32% (21/65)Recibiendo objetos:  33% (22/65)Recibiendo objetos:  35% (23/65)Recibiendo objetos:  36% (24/65)Recibiendo objetos:  38% (25/65)Recibiendo objetos:  40% (26/65)Recibiendo objetos:  41% (27/65)Recibiendo objetos:  43% (28/65)Recibiendo objetos:  44% (29/65)Recibiendo objetos:  46% (30/65)Recibiendo objetos:  47% (31/65)Recibiendo objetos:  49% (32/65)Recibiendo objetos:  50% (33/65)Recibiendo objetos:  52% (34/65)Recibiendo objetos:  53% (35/65)Recibiendo objetos:  55% (36/65)Recibiendo objetos:  56% (37/65)Recibiendo objetos:  58% (38/65)Recibiendo objetos:  60% (39/65)Recibiendo objetos:  61% (40/65)Recibiendo objetos:  63% (41/65)Recibiendo objetos:  64% (42/65)Recibiendo objetos:  66% (43/65)remote: Total 65 (delta 33), reused 47 (delta 18), pack-reused 0[K
+Recibiendo objetos:  67% (44/65)Recibiendo objetos:  69% (45/65)Recibiendo objetos:  70% (46/65)Recibiendo objetos:  72% (47/65)Recibiendo objetos:  73% (48/65)Recibiendo objetos:  75% (49/65)Recibiendo objetos:  76% (50/65)Recibiendo objetos:  78% (51/65)Recibiendo objetos:  80% (52/65)Recibiendo objetos:  81% (53/65)Recibiendo objetos:  83% (54/65)Recibiendo objetos:  84% (55/65)Recibiendo objetos:  86% (56/65)Recibiendo objetos:  87% (57/65)Recibiendo objetos:  89% (58/65)Recibiendo objetos:  90% (59/65)Recibiendo objetos:  92% (60/65)Recibiendo objetos:  93% (61/65)Recibiendo objetos:  95% (62/65)Recibiendo objetos:  96% (63/65)Recibiendo objetos:  98% (64/65)Recibiendo objetos: 100% (65/65)Recibiendo objetos: 100% (65/65), 324.19 KiB | 937.00 KiB/s, listo.
+Resolviendo deltas:   0% (0/33)Resolviendo deltas:   3% (1/33)Resolviendo deltas:   6% (2/33)Resolviendo deltas:   9% (3/33)Resolviendo deltas:  12% (4/33)Resolviendo deltas:  15% (5/33)Resolviendo deltas:  18% (6/33)Resolviendo deltas:  21% (7/33)Resolviendo deltas:  24% (8/33)Resolviendo deltas:  27% (9/33)Resolviendo deltas:  30% (10/33)Resolviendo deltas:  33% (11/33)Resolviendo deltas:  36% (12/33)Resolviendo deltas:  39% (13/33)Resolviendo deltas:  42% (14/33)Resolviendo deltas:  45% (15/33)Resolviendo deltas:  48% (16/33)Resolviendo deltas:  51% (17/33)Resolviendo deltas:  54% (18/33)Resolviendo deltas:  57% (19/33)Resolviendo deltas:  60% (20/33)Resolviendo deltas:  63% (21/33)Resolviendo deltas:  66% (22/33)Resolviendo deltas:  69% (23/33)Resolviendo deltas:  72% (24/33)Resolviendo deltas:  75% (25/33)Resolviendo deltas:  78% (26/33)Resolviendo deltas:  81% (27/33)Resolviendo deltas:  84% (28/33)Resolviendo deltas:  87% (29/33)Resolviendo deltas:  90% (30/33)Resolviendo deltas:  93% (31/33)Resolviendo deltas:  96% (32/33)Resolviendo deltas: 100% (33/33)Resolviendo deltas: 100% (33/33), listo.
+[?2004h]0;alumno@aula431: ~[01;32malumno@aula431[00m:[01;34m~[00m$ cd [K[K[Kls
+[?2004l 01.py        [0m[01;34mEscritorio[0m              [01;34mPúblico[0m                            Untitled2.ipynb
+ 02.py        [01;34mGIT-y-multiprocessing[0m   [40;31;01mpyspark[0m                            Untitled3.ipynb
+ 03112.cpp    [01;34mImágenes[0m                [01;34mSeccionCr-tica_AlgoritmoDeDecker[0m   Untitled4.ipynb
+ 0311.cpp    [01;34m'INF 1º'[0m                 semaforos.txt                      Untitled5.ipynb
+ 04.py        multiprocessing.txt     [01;34msemaphore_M[0m                        Untitled.ipynb
+ [01;32ma.out[0m        [01;34mMúsica[0m                  [01;34msnap[0m                               [01;34mvenv[0m
+ [01;34mDescargas[0m    os                      [01;31mspark-3.2.1-bin-hadoop3.2.tgz[0m      [01;34mVídeos[0m
+ [01;34mDocumentos[0m   [01;34mPlantillas[0m              Untitled1.ipynb
+[?2004h]0;alumno@aula431: ~[01;32malumno@aula431[00m:[01;34m~[00m$ cd SeccionCr-tica_AlgoritmoDeDecker/
+[?2004l[?2004h]0;alumno@aula431: ~/SeccionCr-tica_AlgoritmoDeDecker[01;32malumno@aula431[00m:[01;34m~/SeccionCr-tica_AlgoritmoDeDecker[00m$ ls
+[?2004l01.py       01.txt  02_red.txt  03.py       03.txt  04_red.txt  grabacion.txt  seccion_critica.txt
+01_red.txt  02.py   02.txt      03_red.txt  04.py   04.txt      README.md
+[?2004h]0;alumno@aula431: ~/SeccionCr-tica_AlgoritmoDeDecker[01;32malumno@aula431[00m:[01;34m~/SeccionCr-tica_AlgoritmoDeDecker[00m$ cp *.py ../semaforos.txt [K[K[K[K[K[K[K[K[K[Kphore_M/
+[?2004l[?2004h]0;alumno@aula431: ~/SeccionCr-tica_AlgoritmoDeDecker[01;32malumno@aula431[00m:[01;34m~/SeccionCr-tica_AlgoritmoDeDecker[00m$ cd ..
+[?2004l[?2004h]0;alumno@aula431: ~[01;32malumno@aula431[00m:[01;34m~[00m$ cd semaphore_M/
+[?2004l[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ ls
+[?2004l01.py  02.py  03.py  04.py
+[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ cat 01.py 
+[?2004lfrom multiprocessing import Process
+from multiprocessing import current_process
+from multiprocessing import Value, Array
+
+N = 8
+def task(common, tid, turn):
+	a = 0
+	for i in range(10):
+		print(f'{tid}−{i}: Non−critical Section')
+		a += 1
+		print(f'{tid}−{i}: End of non−critical Section')
+		while turn.value!=tid:
+			pass
+		print(f'{tid}−{i}: Critical section')
+		v = common.value + 1
+		print(f'{tid}−{i}: Inside critical section')
+		common.value = v
+		print(f'{tid}−{i}: End of critical section')
+		turn.value = (tid + 1) % N
+
+def main():
+	lp = []
+	common = Value('i', 0)
+	turn = Value('i', 0)
+	for tid in range(N):
+		lp.append(Process(target=task, args=(common, tid, turn)))
+	print (f"Valor inicial del contador {common.value}")
+	for p in lp:
+		p.start()
+	
+	for p in lp:
+		p.join()
+
+	print (f"Valor final del contador {common.value}")
+	print ("fin")
+
+if __name__ == "__main__":
+	main()
+[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ cd ..
+[?2004l[?2004h]0;alumno@aula431: ~[01;32malumno@aula431[00m:[01;34m~[00m$ rm -fr [K[Kr SE[KeccionCr-tica_AlgoritmoDeDecker/
+[?2004l[?2004h]0;alumno@aula431: ~[01;32malumno@aula431[00m:[01;34m~[00m$ cd semaphore_M/
+[?2004l[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ cp 04.py 04_semaphorebsemaphoreosemaphoreusemaphorensemaphoredsemaphoreesemaphoredsemaphore_semaphore[C[C[C[C[C[C[C[C[C.py
+[?2004l[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ cp 04.py 04_bounded_semaphore.py[1P.py[1P.py[1P.py[1P.py[1P.py[1P.py[1P.py[1P.py[1P.py[1P.py[1P.py[1P.py[1P.py[1P.py[1P.py[1P.py[1P.pyl.pyo.pyc.pyk.py
+[?2004l[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ ls
+[?2004l01.py  02.py  03.py  04_bounded_semaphore.py  04_lock.py  04.py
+[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ emacs 04_bounded_semaphore.py &
+[?2004l[1] 6972
+[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ cat 04_bounded_semaphore.py
+[?2004lfrom multiprocessing import Process
+from multiprocessing import current_process
+from multiprocessing import Value, Array
+from multiprocessing import BoundedSemaphore
+N = 8
+"""
+def is_anybody_inside(critical, tid):
+    found = False
+    i = 0
+    while i<len(critical) and not found:
+        found = tid!=i and critical[i]==1
+        i += 1
+    return found
+"""
+def task(common, tid, critical, semaphore):
+    a = 0
+    for i in range(10):
+        print(f"{tid}−{i}: Non−critical Section")
+        a += 1
+        print(f"{tid}−{i}: End of non−critical Section")
+        critical[tid] = 1
+        """
+        while is_anybody_inside(critical, tid):
+            critical[tid] = 0
+            print(f"{tid}−{i}: Giving up")
+            while turn.value==tid:
+                pass
+            critical[tid] = 1
+        """
+        semaphore.acquire()
+        print(f"{tid}−{i}: Critical section")
+        v = common.value + 1
+        print(f"{tid}−{i}: Inside critical section")
+        common.value = v
+        print(f"{tid}−{i}: End of critical section")
+        semaphore.release()
+        # critical[tid] = 0
+        turn.value = tid
+def main():
+    lp = []
+    common = Value("i", 0)
+    critical = Array("i", [0]*N)
+    semaphore = BoundedSemaphore(1)
+    for tid in range(N):
+        lp.append(Process(target=task, args=(common, tid, critical, semaphore)))
+    print (f"Valor inicial del contador {common.value}")
+    for p in lp:
+        p.start()
+    for p in lp:
+        p.join()
+    print (f"Valor final del contador {common.value}")
+    print ("fin")
+if __name__ == "__main__":
+    main()
+[1]+  Hecho                   emacs 04_bounded_semaphore.py
+[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ python3 04_bounded_semaphore.py 
+[?2004lValor inicial del contador 0
+0−0: Non−critical Section
+0−0: End of non−critical Section
+0−0: Critical section
+0−0: Inside critical section
+0−0: End of critical section
+1−0: Non−critical Section
+1−0: End of non−critical Section
+1−0: Critical section
+1−0: Inside critical section
+1−0: End of critical section
+2−0: Non−critical Section
+2−0: End of non−critical Section
+2−0: Critical section
+2−0: Inside critical section
+2−0: End of critical section
+3−0: Non−critical Section
+3−0: End of non−critical Section
+3−0: Critical section
+3−0: Inside critical section
+3−0: End of critical section
+5−0: Non−critical Section
+5−0: End of non−critical Section
+5−0: Critical section
+5−0: Inside critical section
+5−0: End of critical section
+Process Process-1:
+Process Process-2:
+4−0: Non−critical Section
+4−0: End of non−critical Section
+4−0: Critical section
+4−0: Inside critical section
+4−0: End of critical section
+Process Process-3:
+Process Process-4:
+6−0: Non−critical Section
+6−0: End of non−critical Section
+6−0: Critical section
+6−0: Inside critical section
+6−0: End of critical section
+7−0: Non−critical Section
+7−0: End of non−critical Section
+7−0: Critical section
+7−0: Inside critical section
+7−0: End of critical section
+Process Process-6:
+Process Process-5:
+Process Process-7:
+Process Process-8:
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/alumno/semaphore_M/04_bounded_semaphore.py", line 38, in task
+    turn.value = tid
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+NameError: name 'turn' is not defined
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/alumno/semaphore_M/04_bounded_semaphore.py", line 38, in task
+    turn.value = tid
+  File "/home/alumno/semaphore_M/04_bounded_semaphore.py", line 38, in task
+    turn.value = tid
+NameError: name 'turn' is not defined
+NameError: name 'turn' is not defined
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/alumno/semaphore_M/04_bounded_semaphore.py", line 38, in task
+    turn.value = tid
+NameError: name 'turn' is not defined
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/alumno/semaphore_M/04_bounded_semaphore.py", line 38, in task
+    turn.value = tid
+NameError: name 'turn' is not defined
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/alumno/semaphore_M/04_bounded_semaphore.py", line 38, in task
+    turn.value = tid
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+NameError: name 'turn' is not defined
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/alumno/semaphore_M/04_bounded_semaphore.py", line 38, in task
+    turn.value = tid
+  File "/home/alumno/semaphore_M/04_bounded_semaphore.py", line 38, in task
+    turn.value = tid
+NameError: name 'turn' is not defined
+NameError: name 'turn' is not defined
+Valor final del contador 8
+fin
+[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ python3 04_bounded_semaphore.py [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5Pcat 04_bounded_semaphore.pyemacs 04_bounded_semaphore.py &ls[Kemacs 04_bounded_semaphore.py &
+[?2004l[1] 15326
+[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ emacs 04_bounded_semaphore.py &python3 04_bounded_semaphore.py 
+[?2004lValor inicial del contador 0
+0−0: Non−critical Section
+0−0: End of non−critical Section
+0−0: Critical section
+0−0: Inside critical section
+0−0: End of critical section
+0−1: Non−critical Section
+0−1: End of non−critical Section
+0−1: Critical section
+0−1: Inside critical section
+0−1: End of critical section
+0−2: Non−critical Section
+0−2: End of non−critical Section
+0−2: Critical section
+0−2: Inside critical section
+0−2: End of critical section
+0−3: Non−critical Section
+0−3: End of non−critical Section
+0−3: Critical section
+0−3: Inside critical section
+0−3: End of critical section
+0−4: Non−critical Section
+0−4: End of non−critical Section
+0−4: Critical section
+0−4: Inside critical section
+0−4: End of critical section
+0−5: Non−critical Section
+0−5: End of non−critical Section
+0−5: Critical section
+0−5: Inside critical section
+0−5: End of critical section
+0−6: Non−critical Section
+0−6: End of non−critical Section
+0−6: Critical section
+0−6: Inside critical section
+0−6: End of critical section
+0−7: Non−critical Section
+0−7: End of non−critical Section
+0−7: Critical section
+0−7: Inside critical section
+0−7: End of critical section
+0−8: Non−critical Section
+0−8: End of non−critical Section
+0−8: Critical section
+0−8: Inside critical section
+0−8: End of critical section
+0−9: Non−critical Section
+0−9: End of non−critical Section
+0−9: Critical section
+0−9: Inside critical section
+0−9: End of critical section
+1−0: Non−critical Section
+1−0: End of non−critical Section
+1−0: Critical section
+1−0: Inside critical section
+1−0: End of critical section
+1−1: Non−critical Section
+1−1: End of non−critical Section
+1−1: Critical section
+1−1: Inside critical section
+1−1: End of critical section
+1−2: Non−critical Section
+1−2: End of non−critical Section
+1−2: Critical section
+1−2: Inside critical section
+1−2: End of critical section
+1−3: Non−critical Section
+1−3: End of non−critical Section
+1−3: Critical section
+1−3: Inside critical section
+1−3: End of critical section
+1−4: Non−critical Section
+1−4: End of non−critical Section
+1−4: Critical section
+1−4: Inside critical section
+1−4: End of critical section
+1−5: Non−critical Section
+1−5: End of non−critical Section
+1−5: Critical section
+1−5: Inside critical section
+1−5: End of critical section
+1−6: Non−critical Section
+1−6: End of non−critical Section
+1−6: Critical section
+1−6: Inside critical section
+1−6: End of critical section
+1−7: Non−critical Section
+1−7: End of non−critical Section
+1−7: Critical section
+1−7: Inside critical section
+1−7: End of critical section
+1−8: Non−critical Section
+1−8: End of non−critical Section
+1−8: Critical section
+1−8: Inside critical section
+1−8: End of critical section
+1−9: Non−critical Section
+1−9: End of non−critical Section
+1−9: Critical section
+1−9: Inside critical section
+1−9: End of critical section
+2−0: Non−critical Section
+2−0: End of non−critical Section
+2−0: Critical section
+2−0: Inside critical section
+2−0: End of critical section
+2−1: Non−critical Section
+2−1: End of non−critical Section
+2−1: Critical section
+2−1: Inside critical section
+2−1: End of critical section
+2−2: Non−critical Section
+2−2: End of non−critical Section
+2−2: Critical section
+2−2: Inside critical section
+2−2: End of critical section
+2−3: Non−critical Section
+2−3: End of non−critical Section
+2−3: Critical section
+2−3: Inside critical section
+2−3: End of critical section
+2−4: Non−critical Section
+2−4: End of non−critical Section
+2−4: Critical section
+2−4: Inside critical section
+2−4: End of critical section
+2−5: Non−critical Section
+2−5: End of non−critical Section
+2−5: Critical section
+2−5: Inside critical section
+2−5: End of critical section
+2−6: Non−critical Section
+2−6: End of non−critical Section
+2−6: Critical section
+2−6: Inside critical section
+2−6: End of critical section
+2−7: Non−critical Section
+2−7: End of non−critical Section
+2−7: Critical section
+2−7: Inside critical section
+2−7: End of critical section
+2−8: Non−critical Section
+2−8: End of non−critical Section
+2−8: Critical section
+2−8: Inside critical section
+2−8: End of critical section
+2−9: Non−critical Section
+2−9: End of non−critical Section
+2−9: Critical section
+2−9: Inside critical section
+2−9: End of critical section
+3−0: Non−critical Section
+3−0: End of non−critical Section
+3−0: Critical section
+3−0: Inside critical section
+3−0: End of critical section
+3−1: Non−critical Section
+3−1: End of non−critical Section
+3−1: Critical section
+3−1: Inside critical section
+3−1: End of critical section
+3−2: Non−critical Section
+3−2: End of non−critical Section
+3−2: Critical section
+3−2: Inside critical section
+3−2: End of critical section
+3−3: Non−critical Section
+3−3: End of non−critical Section
+3−3: Critical section
+3−3: Inside critical section
+3−3: End of critical section
+3−4: Non−critical Section
+3−4: End of non−critical Section
+3−4: Critical section
+3−4: Inside critical section
+3−4: End of critical section
+3−5: Non−critical Section
+3−5: End of non−critical Section
+3−5: Critical section
+3−5: Inside critical section
+3−5: End of critical section
+3−6: Non−critical Section
+3−6: End of non−critical Section
+3−6: Critical section
+3−6: Inside critical section
+3−6: End of critical section
+3−7: Non−critical Section
+3−7: End of non−critical Section
+3−7: Critical section
+3−7: Inside critical section
+3−7: End of critical section
+3−8: Non−critical Section
+3−8: End of non−critical Section
+3−8: Critical section
+3−8: Inside critical section
+3−8: End of critical section
+3−9: Non−critical Section
+3−9: End of non−critical Section
+3−9: Critical section
+3−9: Inside critical section
+3−9: End of critical section
+4−0: Non−critical Section
+4−0: End of non−critical Section
+4−0: Critical section
+4−0: Inside critical section
+4−0: End of critical section
+4−1: Non−critical Section
+4−1: End of non−critical Section
+4−1: Critical section
+4−1: Inside critical section
+4−1: End of critical section
+4−2: Non−critical Section
+4−2: End of non−critical Section
+4−2: Critical section
+4−2: Inside critical section
+4−2: End of critical section
+4−3: Non−critical Section
+4−3: End of non−critical Section
+4−3: Critical section
+4−3: Inside critical section
+4−3: End of critical section
+4−4: Non−critical Section
+4−4: End of non−critical Section
+4−4: Critical section
+4−4: Inside critical section
+4−4: End of critical section
+4−5: Non−critical Section
+4−5: End of non−critical Section
+4−5: Critical section
+4−5: Inside critical section
+4−5: End of critical section
+4−6: Non−critical Section
+4−6: End of non−critical Section
+4−6: Critical section
+4−6: Inside critical section
+4−6: End of critical section
+4−7: Non−critical Section
+4−7: End of non−critical Section
+4−7: Critical section
+4−7: Inside critical section
+4−7: End of critical section
+4−8: Non−critical Section
+4−8: End of non−critical Section
+4−8: Critical section
+4−8: Inside critical section
+4−8: End of critical section
+4−9: Non−critical Section
+4−9: End of non−critical Section
+4−9: Critical section
+4−9: Inside critical section
+4−9: End of critical section
+5−0: Non−critical Section
+5−0: End of non−critical Section
+5−0: Critical section
+5−0: Inside critical section
+5−0: End of critical section
+5−1: Non−critical Section
+5−1: End of non−critical Section
+5−1: Critical section
+5−1: Inside critical section
+5−1: End of critical section
+5−2: Non−critical Section
+5−2: End of non−critical Section
+6−0: Non−critical Section
+5−2: Critical section
+5−2: Inside critical section
+5−2: End of critical section
+6−0: End of non−critical Section
+5−3: Non−critical Section
+5−3: End of non−critical Section
+5−3: Critical section
+5−3: Inside critical section
+5−3: End of critical section
+5−4: Non−critical Section
+5−4: End of non−critical Section
+6−0: Critical section
+6−0: Inside critical section
+6−0: End of critical section
+6−1: Non−critical Section
+6−1: End of non−critical Section
+6−1: Critical section
+6−1: Inside critical section
+6−1: End of critical section
+6−2: Non−critical Section
+6−2: End of non−critical Section
+6−2: Critical section
+6−2: Inside critical section
+6−2: End of critical section
+6−3: Non−critical Section
+6−3: End of non−critical Section
+5−4: Critical section
+5−4: Inside critical section
+5−4: End of critical section
+5−5: Non−critical Section
+5−5: End of non−critical Section
+6−3: Critical section
+6−3: Inside critical section
+6−3: End of critical section
+6−4: Non−critical Section
+6−4: End of non−critical Section
+5−5: Critical section
+5−5: Inside critical section
+5−5: End of critical section
+5−6: Non−critical Section
+5−6: End of non−critical Section
+6−4: Critical section
+6−4: Inside critical section
+6−4: End of critical section
+6−5: Non−critical Section
+6−5: End of non−critical Section
+6−5: Critical section
+6−5: Inside critical section
+6−5: End of critical section
+6−6: Non−critical Section
+6−6: End of non−critical Section
+6−6: Critical section
+6−6: Inside critical section
+6−6: End of critical section
+6−7: Non−critical Section
+6−7: End of non−critical Section
+6−7: Critical section
+6−7: Inside critical section
+6−7: End of critical section
+6−8: Non−critical Section
+6−8: End of non−critical Section
+5−6: Critical section
+5−6: Inside critical section
+5−6: End of critical section
+5−7: Non−critical Section
+6−8: Critical section
+5−7: End of non−critical Section
+6−8: Inside critical section
+6−8: End of critical section
+6−9: Non−critical Section
+6−9: End of non−critical Section
+5−7: Critical section
+5−7: Inside critical section
+5−7: End of critical section
+5−8: Non−critical Section
+5−8: End of non−critical Section
+6−9: Critical section
+6−9: Inside critical section
+6−9: End of critical section
+5−8: Critical section
+5−8: Inside critical section
+5−8: End of critical section
+5−9: Non−critical Section
+5−9: End of non−critical Section
+5−9: Critical section
+5−9: Inside critical section
+5−9: End of critical section
+7−0: Non−critical Section
+7−0: End of non−critical Section
+7−0: Critical section
+7−0: Inside critical section
+7−0: End of critical section
+7−1: Non−critical Section
+7−1: End of non−critical Section
+7−1: Critical section
+7−1: Inside critical section
+7−1: End of critical section
+7−2: Non−critical Section
+7−2: End of non−critical Section
+7−2: Critical section
+7−2: Inside critical section
+7−2: End of critical section
+7−3: Non−critical Section
+7−3: End of non−critical Section
+7−3: Critical section
+7−3: Inside critical section
+7−3: End of critical section
+7−4: Non−critical Section
+7−4: End of non−critical Section
+7−4: Critical section
+7−4: Inside critical section
+7−4: End of critical section
+7−5: Non−critical Section
+7−5: End of non−critical Section
+7−5: Critical section
+7−5: Inside critical section
+7−5: End of critical section
+7−6: Non−critical Section
+7−6: End of non−critical Section
+7−6: Critical section
+7−6: Inside critical section
+7−6: End of critical section
+7−7: Non−critical Section
+7−7: End of non−critical Section
+7−7: Critical section
+7−7: Inside critical section
+7−7: End of critical section
+7−8: Non−critical Section
+7−8: End of non−critical Section
+7−8: Critical section
+7−8: Inside critical section
+7−8: End of critical section
+7−9: Non−critical Section
+7−9: End of non−critical Section
+7−9: Critical section
+7−9: Inside critical section
+7−9: End of critical section
+Valor final del contador 80
+fin
+[1]+  Hecho                   emacs 04_bounded_semaphore.py
+[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ python3 04_bounded_semaphore.py [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pemacs 04_bounded_semaphore.py &
+[?2004l[1] 15495
+[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ emacs 04_bounded_semaphore.py &python3 04_bounded_semaphore.py 
+[?2004lTraceback (most recent call last):
+  File "/home/alumno/semaphore_M/04_bounded_semaphore.py", line 36, in <module>
+    main()
+  File "/home/alumno/semaphore_M/04_bounded_semaphore.py", line 27, in main
+    lp.append(Process(target=task, args=(common, tid, critical, semaphore)))
+NameError: name 'critical' is not defined
+[1]+  Hecho                   emacs 04_bounded_semaphore.py
+[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ python3 04_bounded_semaphore.py [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pemacs 04_bounded_semaphore.py &
+[?2004l[1] 15522
+[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ emacs 04_bounded_semaphore.py &python3 04_bounded_semaphore.py 
+[?2004lTraceback (most recent call last):
+  File "/home/alumno/semaphore_M/04_bounded_semaphore.py", line 36, in <module>
+    main()
+  File "/home/alumno/semaphore_M/04_bounded_semaphore.py", line 27, in main
+    lp.append(Process(target=task, args=(common, tid, critical, semaphore)))
+NameError: name 'critical' is not defined
+[1]+  Hecho                   emacs 04_bounded_semaphore.py
+[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ python3 04_bounded_semaphore.py [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pemacs 04_bounded_semaphore.py &python3 04_bounded_semaphore.py [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pemacs 04_bounded_semaphore.py &
+[?2004l[1] 15535
+[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ emacs 04_bounded_semaphore.py &python3 04_bounded_semaphore.py 
+[?2004lValor inicial del contador 0
+0−0: Non−critical Section
+0−0: End of non−critical Section
+1−0: Non−critical Section
+1−0: End of non−critical Section
+2−0: Non−critical Section
+2−0: End of non−critical Section
+3−0: Non−critical Section
+3−0: End of non−critical Section
+4−0: Non−critical Section
+4−0: End of non−critical Section
+Process Process-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/alumno/semaphore_M/04_bounded_semaphore.py", line 13, in task
+    critical[tid] = 1
+NameError: name 'critical' is not defined
+5−0: Non−critical Section
+Process Process-2:
+5−0: End of non−critical Section
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/alumno/semaphore_M/04_bounded_semaphore.py", line 13, in task
+    critical[tid] = 1
+NameError: name 'critical' is not defined
+Process Process-3:
+Process Process-4:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/alumno/semaphore_M/04_bounded_semaphore.py", line 13, in task
+    critical[tid] = 1
+NameError: name 'critical' is not defined
+  File "/home/alumno/semaphore_M/04_bounded_semaphore.py", line 13, in task
+    critical[tid] = 1
+NameError: name 'critical' is not defined
+6−0: Non−critical Section
+6−0: End of non−critical Section
+7−0: Non−critical Section
+7−0: End of non−critical Section
+Process Process-5:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/alumno/semaphore_M/04_bounded_semaphore.py", line 13, in task
+    critical[tid] = 1
+NameError: name 'critical' is not defined
+Process Process-6:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/alumno/semaphore_M/04_bounded_semaphore.py", line 13, in task
+    critical[tid] = 1
+NameError: name 'critical' is not defined
+Process Process-8:
+Process Process-7:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/alumno/semaphore_M/04_bounded_semaphore.py", line 13, in task
+    critical[tid] = 1
+NameError: name 'critical' is not defined
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/alumno/semaphore_M/04_bounded_semaphore.py", line 13, in task
+    critical[tid] = 1
+NameError: name 'critical' is not defined
+Valor final del contador 0
+fin
+[1]+  Hecho                   emacs 04_bounded_semaphore.py
+[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ python3 04_bounded_semaphore.py [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pemacs 04_bounded_semaphore.py &
+[?2004l[1] 15571
+[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ emacs 04_bounded_semaphore.py &python3 04_bounded_semaphore.py 
+[?2004lValor inicial del contador 0
+0−0: Non−critical Section
+0−0: End of non−critical Section
+0−0: Critical section
+0−0: Inside critical section
+0−0: End of critical section
+0−1: Non−critical Section
+0−1: End of non−critical Section
+0−1: Critical section
+0−1: Inside critical section
+0−1: End of critical section
+0−2: Non−critical Section
+0−2: End of non−critical Section
+0−2: Critical section
+0−2: Inside critical section
+0−2: End of critical section
+0−3: Non−critical Section
+0−3: End of non−critical Section
+0−3: Critical section
+0−3: Inside critical section
+0−3: End of critical section
+0−4: Non−critical Section
+0−4: End of non−critical Section
+0−4: Critical section
+0−4: Inside critical section
+0−4: End of critical section
+0−5: Non−critical Section
+0−5: End of non−critical Section
+0−5: Critical section
+0−5: Inside critical section
+0−5: End of critical section
+0−6: Non−critical Section
+0−6: End of non−critical Section
+0−6: Critical section
+0−6: Inside critical section
+0−6: End of critical section
+0−7: Non−critical Section
+0−7: End of non−critical Section
+0−7: Critical section
+0−7: Inside critical section
+0−7: End of critical section
+0−8: Non−critical Section
+0−8: End of non−critical Section
+0−8: Critical section
+0−8: Inside critical section
+0−8: End of critical section
+0−9: Non−critical Section
+0−9: End of non−critical Section
+0−9: Critical section
+0−9: Inside critical section
+0−9: End of critical section
+1−0: Non−critical Section
+1−0: End of non−critical Section
+1−0: Critical section
+1−0: Inside critical section
+1−0: End of critical section
+1−1: Non−critical Section
+1−1: End of non−critical Section
+1−1: Critical section
+1−1: Inside critical section
+1−1: End of critical section
+1−2: Non−critical Section
+1−2: End of non−critical Section
+1−2: Critical section
+1−2: Inside critical section
+1−2: End of critical section
+1−3: Non−critical Section
+1−3: End of non−critical Section
+1−3: Critical section
+1−3: Inside critical section
+1−3: End of critical section
+1−4: Non−critical Section
+1−4: End of non−critical Section
+1−4: Critical section
+1−4: Inside critical section
+1−4: End of critical section
+1−5: Non−critical Section
+1−5: End of non−critical Section
+1−5: Critical section
+1−5: Inside critical section
+1−5: End of critical section
+1−6: Non−critical Section
+1−6: End of non−critical Section
+1−6: Critical section
+1−6: Inside critical section
+1−6: End of critical section
+1−7: Non−critical Section
+1−7: End of non−critical Section
+1−7: Critical section
+1−7: Inside critical section
+1−7: End of critical section
+1−8: Non−critical Section
+1−8: End of non−critical Section
+1−8: Critical section
+1−8: Inside critical section
+1−8: End of critical section
+1−9: Non−critical Section
+1−9: End of non−critical Section
+1−9: Critical section
+1−9: Inside critical section
+1−9: End of critical section
+2−0: Non−critical Section
+2−0: End of non−critical Section
+2−0: Critical section
+2−0: Inside critical section
+2−0: End of critical section
+2−1: Non−critical Section
+2−1: End of non−critical Section
+2−1: Critical section
+2−1: Inside critical section
+2−1: End of critical section
+2−2: Non−critical Section
+2−2: End of non−critical Section
+2−2: Critical section
+2−2: Inside critical section
+2−2: End of critical section
+2−3: Non−critical Section
+2−3: End of non−critical Section
+2−3: Critical section
+2−3: Inside critical section
+2−3: End of critical section
+2−4: Non−critical Section
+2−4: End of non−critical Section
+2−4: Critical section
+2−4: Inside critical section
+2−4: End of critical section
+2−5: Non−critical Section
+2−5: End of non−critical Section
+2−5: Critical section
+2−5: Inside critical section
+2−5: End of critical section
+2−6: Non−critical Section
+2−6: End of non−critical Section
+2−6: Critical section
+2−6: Inside critical section
+2−6: End of critical section
+2−7: Non−critical Section
+2−7: End of non−critical Section
+2−7: Critical section
+2−7: Inside critical section
+2−7: End of critical section
+2−8: Non−critical Section
+2−8: End of non−critical Section
+2−8: Critical section
+2−8: Inside critical section
+2−8: End of critical section
+2−9: Non−critical Section
+2−9: End of non−critical Section
+2−9: Critical section
+2−9: Inside critical section
+2−9: End of critical section
+3−0: Non−critical Section
+3−0: End of non−critical Section
+3−0: Critical section
+3−0: Inside critical section
+3−0: End of critical section
+3−1: Non−critical Section
+3−1: End of non−critical Section
+3−1: Critical section
+3−1: Inside critical section
+3−1: End of critical section
+3−2: Non−critical Section
+3−2: End of non−critical Section
+3−2: Critical section
+3−2: Inside critical section
+3−2: End of critical section
+3−3: Non−critical Section
+3−3: End of non−critical Section
+3−3: Critical section
+3−3: Inside critical section
+3−3: End of critical section
+3−4: Non−critical Section
+3−4: End of non−critical Section
+3−4: Critical section
+3−4: Inside critical section
+3−4: End of critical section
+3−5: Non−critical Section
+3−5: End of non−critical Section
+3−5: Critical section
+3−5: Inside critical section
+3−5: End of critical section
+3−6: Non−critical Section
+3−6: End of non−critical Section
+3−6: Critical section
+3−6: Inside critical section
+3−6: End of critical section
+3−7: Non−critical Section
+3−7: End of non−critical Section
+3−7: Critical section
+3−7: Inside critical section
+3−7: End of critical section
+3−8: Non−critical Section
+3−8: End of non−critical Section
+3−8: Critical section
+3−8: Inside critical section
+3−8: End of critical section
+3−9: Non−critical Section
+3−9: End of non−critical Section
+3−9: Critical section
+3−9: Inside critical section
+3−9: End of critical section
+4−0: Non−critical Section
+4−0: End of non−critical Section
+4−0: Critical section
+4−0: Inside critical section
+4−0: End of critical section
+4−1: Non−critical Section
+4−1: End of non−critical Section
+4−1: Critical section
+4−1: Inside critical section
+4−1: End of critical section
+4−2: Non−critical Section
+4−2: End of non−critical Section
+4−2: Critical section
+4−2: Inside critical section
+4−2: End of critical section
+4−3: Non−critical Section
+4−3: End of non−critical Section
+4−3: Critical section
+4−3: Inside critical section
+4−3: End of critical section
+4−4: Non−critical Section
+4−4: End of non−critical Section
+4−4: Critical section
+4−4: Inside critical section
+4−4: End of critical section
+4−5: Non−critical Section
+4−5: End of non−critical Section
+4−5: Critical section
+4−5: Inside critical section
+4−5: End of critical section
+4−6: Non−critical Section
+4−6: End of non−critical Section
+4−6: Critical section
+4−6: Inside critical section
+4−6: End of critical section
+4−7: Non−critical Section
+4−7: End of non−critical Section
+4−7: Critical section
+4−7: Inside critical section
+4−7: End of critical section
+4−8: Non−critical Section
+4−8: End of non−critical Section
+4−8: Critical section
+4−8: Inside critical section
+4−8: End of critical section
+4−9: Non−critical Section
+4−9: End of non−critical Section
+4−9: Critical section
+4−9: Inside critical section
+4−9: End of critical section
+5−0: Non−critical Section
+5−0: End of non−critical Section
+5−0: Critical section
+5−0: Inside critical section
+5−0: End of critical section
+5−1: Non−critical Section
+5−1: End of non−critical Section
+5−1: Critical section
+5−1: Inside critical section
+5−1: End of critical section
+5−2: Non−critical Section
+5−2: End of non−critical Section
+5−2: Critical section
+5−2: Inside critical section
+5−2: End of critical section
+5−3: Non−critical Section
+5−3: End of non−critical Section
+5−3: Critical section
+5−3: Inside critical section
+5−3: End of critical section
+5−4: Non−critical Section
+5−4: End of non−critical Section
+5−4: Critical section
+5−4: Inside critical section
+5−4: End of critical section
+5−5: Non−critical Section
+5−5: End of non−critical Section
+5−5: Critical section
+5−5: Inside critical section
+5−5: End of critical section
+5−6: Non−critical Section
+5−6: End of non−critical Section
+5−6: Critical section
+5−6: Inside critical section
+5−6: End of critical section
+5−7: Non−critical Section
+5−7: End of non−critical Section
+5−7: Critical section
+5−7: Inside critical section
+5−7: End of critical section
+5−8: Non−critical Section
+5−8: End of non−critical Section
+5−8: Critical section
+5−8: Inside critical section
+5−8: End of critical section
+5−9: Non−critical Section
+5−9: End of non−critical Section
+5−9: Critical section
+5−9: Inside critical section
+5−9: End of critical section
+6−0: Non−critical Section
+6−0: End of non−critical Section
+6−0: Critical section
+6−0: Inside critical section
+6−0: End of critical section
+6−1: Non−critical Section
+6−1: End of non−critical Section
+6−1: Critical section
+6−1: Inside critical section
+6−1: End of critical section
+6−2: Non−critical Section
+6−2: End of non−critical Section
+6−2: Critical section
+6−2: Inside critical section
+6−2: End of critical section
+6−3: Non−critical Section
+6−3: End of non−critical Section
+6−3: Critical section
+6−3: Inside critical section
+6−3: End of critical section
+6−4: Non−critical Section
+6−4: End of non−critical Section
+6−4: Critical section
+6−4: Inside critical section
+6−4: End of critical section
+6−5: Non−critical Section
+6−5: End of non−critical Section
+6−5: Critical section
+6−5: Inside critical section
+6−5: End of critical section
+6−6: Non−critical Section
+6−6: End of non−critical Section
+6−6: Critical section
+6−6: Inside critical section
+6−6: End of critical section
+6−7: Non−critical Section
+6−7: End of non−critical Section
+6−7: Critical section
+6−7: Inside critical section
+6−7: End of critical section
+6−8: Non−critical Section
+6−8: End of non−critical Section
+6−8: Critical section
+6−8: Inside critical section
+6−8: End of critical section
+6−9: Non−critical Section
+6−9: End of non−critical Section
+6−9: Critical section
+6−9: Inside critical section
+6−9: End of critical section
+7−0: Non−critical Section
+7−0: End of non−critical Section
+7−0: Critical section
+7−0: Inside critical section
+7−0: End of critical section
+7−1: Non−critical Section
+7−1: End of non−critical Section
+7−1: Critical section
+7−1: Inside critical section
+7−1: End of critical section
+7−2: Non−critical Section
+7−2: End of non−critical Section
+7−2: Critical section
+7−2: Inside critical section
+7−2: End of critical section
+7−3: Non−critical Section
+7−3: End of non−critical Section
+7−3: Critical section
+7−3: Inside critical section
+7−3: End of critical section
+7−4: Non−critical Section
+7−4: End of non−critical Section
+7−4: Critical section
+7−4: Inside critical section
+7−4: End of critical section
+7−5: Non−critical Section
+7−5: End of non−critical Section
+7−5: Critical section
+7−5: Inside critical section
+7−5: End of critical section
+7−6: Non−critical Section
+7−6: End of non−critical Section
+7−6: Critical section
+7−6: Inside critical section
+7−6: End of critical section
+7−7: Non−critical Section
+7−7: End of non−critical Section
+7−7: Critical section
+7−7: Inside critical section
+7−7: End of critical section
+7−8: Non−critical Section
+7−8: End of non−critical Section
+7−8: Critical section
+7−8: Inside critical section
+7−8: End of critical section
+7−9: Non−critical Section
+7−9: End of non−critical Section
+7−9: Critical section
+7−9: Inside critical section
+7−9: End of critical section
+Valor final del contador 80
+fin
+[1]+  Hecho                   emacs 04_bounded_semaphore.py
+[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ python3 04_bounded_semaphore.py [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pemacs 04_bounded_semaphore.py &
+[?2004l[1] 15612
+[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ emacs 04_bounded_semaphore.py &[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@l[6@ock.py
+[?2004l[2] 15636
+[1]   Hecho                   emacs 04_bounded_semaphore.py
+[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ emacs 04_lock.py.py &[1P &[1P &[1P &
+[?2004l[3] 15656
+[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ ls
+[?2004l01.py  02.py  03.py  04_bounded_semaphore.py  04_bounded_semaphore.py~  04_lock.py  04.py
+[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ git commit -am "bounded_semaphore"
+[?2004lIdentidad del autor desconocido
+
+*** Por favor cuéntame quién eres.
+
+Ejecuta
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Tu Nombre"
+
+para configurar la identidad por defecto de tu cuenta.
+Omite --global para configurar tu identidad solo en este repositorio.
+
+fatal: no es posible auto-detectar la dirección de correo (se obtuvo 'alumno@aula431.(none)')
+[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ [7mgit config --global user.email "you@example.com"[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit config --global user.email "you@example.com"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"m"i"c"a"b"a"0"3"@"u"c"m"."e"s"
+[?2004l[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ git config --global user.email "micaba03@ucm.es"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"m"i"g"u"e"l"[1P "miguel"[1P "miguel"[1P "miguel"[1P "miguel"[1P "miguel"n "miguel"a "miguel"m "miguel"e "miguel"
+[?2004l[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ git config --global user.name "miguel"email "micaba03@ucm.es"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Pmmit -am "bounded_semaphore"
+[?2004lEn la rama main
+
+Confirmación inicial
+
+Archivos sin seguimiento:
+  (usa "git add <archivo>..." para incluirlo a lo que se será confirmado)
+	[31m01.py[m
+	[31m02.py[m
+	[31m03.py[m
+	[31m04.py[m
+	[31m04_bounded_semaphore.py[m
+	[31m04_bounded_semaphore.py~[m
+	[31m04_lock.py[m
+
+no hay nada agregado al commit pero hay archivos sin seguimiento presentes (usa "git add" para hacerles seguimiento)
+[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ git add .
+[?2004l[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ git add .commit -am "bounded_semaphore"[1P
+[?2004l[main (commit-raíz) e1b2f8f] bounded_semaphore
+ 7 files changed, 293 insertions(+)
+ create mode 100644 01.py
+ create mode 100644 02.py
+ create mode 100644 03.py
+ create mode 100644 04.py
+ create mode 100644 04_bounded_semaphore.py
+ create mode 100644 04_bounded_semaphore.py~
+ create mode 100644 04_lock.py
+[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ git push
+[?2004lEnumerando objetos: 8, listo.
+Contando objetos:  12% (1/8)Contando objetos:  25% (2/8)Contando objetos:  37% (3/8)Contando objetos:  50% (4/8)Contando objetos:  62% (5/8)Contando objetos:  75% (6/8)Contando objetos:  87% (7/8)Contando objetos: 100% (8/8)Contando objetos: 100% (8/8), listo.
+Compresión delta usando hasta 6 hilos
+Comprimiendo objetos:  12% (1/8)Comprimiendo objetos:  25% (2/8)Comprimiendo objetos:  37% (3/8)Comprimiendo objetos:  50% (4/8)Comprimiendo objetos:  62% (5/8)Comprimiendo objetos:  75% (6/8)Comprimiendo objetos:  87% (7/8)Comprimiendo objetos: 100% (8/8)Comprimiendo objetos: 100% (8/8), listo.
+Escribiendo objetos:  12% (1/8)Escribiendo objetos:  25% (2/8)Escribiendo objetos:  50% (4/8)Escribiendo objetos:  87% (7/8)Escribiendo objetos: 100% (8/8)Escribiendo objetos: 100% (8/8), 1.69 KiB | 864.00 KiB/s, listo.
+Total 8 (delta 4), reusados 0 (delta 0), pack-reusados 0
+remote: Resolving deltas:   0% (0/4)[Kremote: Resolving deltas:  25% (1/4)[Kremote: Resolving deltas:  50% (2/4)[Kremote: Resolving deltas:  75% (3/4)[Kremote: Resolving deltas: 100% (4/4)[Kremote: Resolving deltas: 100% (4/4), done.[K
+To github.com:Miguel-Caballero-Rod/semaphore_M.git
+ * [new branch]      main -> main
+[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ git pushcommit -m "bounded_semaphore"add .[Kcommit -am "bounded_semaphore"nfig --global user.name "miguel"email "micaba03@ucm.es"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Pmmit -am "bounded_semaphore"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kemacs 04_lock.py &
+[?2004l[4] 15827
+[3]   Hecho                   emacs 04_lock.py
+[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ emacs 04_lock.py &[10Pgit pushcommit -m "bounded_semaphore"add .[Kcommit -am "bounded_semaphore"nfig --global user.name "miguel"email "micaba03@ucm.es"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Pmmit -am "bounded_semaphore"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kemacs 04_lock.py &[C[C[1P[1P[1P[1P[1P[1@p[1@y[1@t[1@h[1@o[1@n[1@3ls[Kpython3 04_lock.py &[1@emacs 04_lock.py[C[C[C[C[C[10@bounded_semaphore[C[C[C[C[Cpython3 04_bounded_semaphore.py [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pemacs 04_bounded_semaphore.py &[10Plock.py[C[C[C[C[C[10@bounded_semaphore[C[C[C[C[Cpython3 04_bounded_semaphore.py [1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@l[6@ock.py[1P[1P[1P
+[?2004lTraceback (most recent call last):
+  File "/home/alumno/semaphore_M/04_lock.py", line 33, in <module>
+    main()
+  File "/home/alumno/semaphore_M/04_lock.py", line 22, in main
+    lock=Lock()
+NameError: name 'Lock' is not defined. Did you mean: 'lock'?
+[4]+  Hecho                   emacs 04_lock.py
+[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ python3 04_lock.py [1Pemacs 04_lock.py &
+[?2004l[3] 15956
+[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ emacs 04_lock.py &python3 04_lock.py 
+[?2004lValor inicial del contador 0
+0−0: Non−critical Section
+0−0: End of non−critical Section
+0−0: Critical section
+0−0: Inside critical section
+0−0: End of critical section
+0−1: Non−critical Section
+0−1: End of non−critical Section
+0−1: Critical section
+0−1: Inside critical section
+0−1: End of critical section
+0−2: Non−critical Section
+0−2: End of non−critical Section
+0−2: Critical section
+0−2: Inside critical section
+0−2: End of critical section
+0−3: Non−critical Section
+0−3: End of non−critical Section
+0−3: Critical section
+0−3: Inside critical section
+0−3: End of critical section
+0−4: Non−critical Section
+0−4: End of non−critical Section
+0−4: Critical section
+0−4: Inside critical section
+0−4: End of critical section
+0−5: Non−critical Section
+0−5: End of non−critical Section
+0−5: Critical section
+0−5: Inside critical section
+0−5: End of critical section
+0−6: Non−critical Section
+0−6: End of non−critical Section
+0−6: Critical section
+0−6: Inside critical section
+0−6: End of critical section
+0−7: Non−critical Section
+0−7: End of non−critical Section
+0−7: Critical section
+0−7: Inside critical section
+0−7: End of critical section
+0−8: Non−critical Section
+0−8: End of non−critical Section
+0−8: Critical section
+0−8: Inside critical section
+0−8: End of critical section
+0−9: Non−critical Section
+0−9: End of non−critical Section
+0−9: Critical section
+0−9: Inside critical section
+0−9: End of critical section
+1−0: Non−critical Section
+1−0: End of non−critical Section
+1−0: Critical section
+1−0: Inside critical section
+1−0: End of critical section
+1−1: Non−critical Section
+1−1: End of non−critical Section
+1−1: Critical section
+1−1: Inside critical section
+1−1: End of critical section
+1−2: Non−critical Section
+1−2: End of non−critical Section
+1−2: Critical section
+1−2: Inside critical section
+1−2: End of critical section
+1−3: Non−critical Section
+1−3: End of non−critical Section
+1−3: Critical section
+1−3: Inside critical section
+1−3: End of critical section
+1−4: Non−critical Section
+1−4: End of non−critical Section
+1−4: Critical section
+1−4: Inside critical section
+1−4: End of critical section
+1−5: Non−critical Section
+1−5: End of non−critical Section
+1−5: Critical section
+1−5: Inside critical section
+1−5: End of critical section
+1−6: Non−critical Section
+1−6: End of non−critical Section
+1−6: Critical section
+1−6: Inside critical section
+1−6: End of critical section
+1−7: Non−critical Section
+1−7: End of non−critical Section
+1−7: Critical section
+1−7: Inside critical section
+1−7: End of critical section
+1−8: Non−critical Section
+1−8: End of non−critical Section
+1−8: Critical section
+1−8: Inside critical section
+1−8: End of critical section
+1−9: Non−critical Section
+1−9: End of non−critical Section
+1−9: Critical section
+1−9: Inside critical section
+1−9: End of critical section
+2−0: Non−critical Section
+2−0: End of non−critical Section
+2−0: Critical section
+2−0: Inside critical section
+2−0: End of critical section
+2−1: Non−critical Section
+2−1: End of non−critical Section
+2−1: Critical section
+2−1: Inside critical section
+2−1: End of critical section
+2−2: Non−critical Section
+2−2: End of non−critical Section
+2−2: Critical section
+2−2: Inside critical section
+2−2: End of critical section
+2−3: Non−critical Section
+2−3: End of non−critical Section
+2−3: Critical section
+2−3: Inside critical section
+2−3: End of critical section
+2−4: Non−critical Section
+2−4: End of non−critical Section
+2−4: Critical section
+2−4: Inside critical section
+2−4: End of critical section
+2−5: Non−critical Section
+2−5: End of non−critical Section
+2−5: Critical section
+2−5: Inside critical section
+2−5: End of critical section
+2−6: Non−critical Section
+2−6: End of non−critical Section
+2−6: Critical section
+2−6: Inside critical section
+2−6: End of critical section
+2−7: Non−critical Section
+2−7: End of non−critical Section
+2−7: Critical section
+2−7: Inside critical section
+2−7: End of critical section
+2−8: Non−critical Section
+2−8: End of non−critical Section
+2−8: Critical section
+2−8: Inside critical section
+2−8: End of critical section
+2−9: Non−critical Section
+2−9: End of non−critical Section
+2−9: Critical section
+2−9: Inside critical section
+2−9: End of critical section
+3−0: Non−critical Section
+3−0: End of non−critical Section
+3−0: Critical section
+3−0: Inside critical section
+3−0: End of critical section
+3−1: Non−critical Section
+3−1: End of non−critical Section
+3−1: Critical section
+3−1: Inside critical section
+3−1: End of critical section
+3−2: Non−critical Section
+3−2: End of non−critical Section
+3−2: Critical section
+3−2: Inside critical section
+3−2: End of critical section
+3−3: Non−critical Section
+3−3: End of non−critical Section
+3−3: Critical section
+3−3: Inside critical section
+3−3: End of critical section
+3−4: Non−critical Section
+3−4: End of non−critical Section
+3−4: Critical section
+3−4: Inside critical section
+3−4: End of critical section
+3−5: Non−critical Section
+3−5: End of non−critical Section
+3−5: Critical section
+3−5: Inside critical section
+3−5: End of critical section
+3−6: Non−critical Section
+3−6: End of non−critical Section
+3−6: Critical section
+3−6: Inside critical section
+3−6: End of critical section
+3−7: Non−critical Section
+3−7: End of non−critical Section
+3−7: Critical section
+3−7: Inside critical section
+3−7: End of critical section
+3−8: Non−critical Section
+3−8: End of non−critical Section
+3−8: Critical section
+3−8: Inside critical section
+3−8: End of critical section
+3−9: Non−critical Section
+3−9: End of non−critical Section
+3−9: Critical section
+3−9: Inside critical section
+3−9: End of critical section
+4−0: Non−critical Section
+4−0: End of non−critical Section
+4−0: Critical section
+4−0: Inside critical section
+4−0: End of critical section
+4−1: Non−critical Section
+4−1: End of non−critical Section
+4−1: Critical section
+4−1: Inside critical section
+4−1: End of critical section
+4−2: Non−critical Section
+4−2: End of non−critical Section
+4−2: Critical section
+4−2: Inside critical section
+4−2: End of critical section
+4−3: Non−critical Section
+4−3: End of non−critical Section
+4−3: Critical section
+4−3: Inside critical section
+4−3: End of critical section
+4−4: Non−critical Section
+4−4: End of non−critical Section
+4−4: Critical section
+4−4: Inside critical section
+4−4: End of critical section
+4−5: Non−critical Section
+4−5: End of non−critical Section
+4−5: Critical section
+4−5: Inside critical section
+4−5: End of critical section
+4−6: Non−critical Section
+4−6: End of non−critical Section
+4−6: Critical section
+4−6: Inside critical section
+4−6: End of critical section
+4−7: Non−critical Section
+4−7: End of non−critical Section
+4−7: Critical section
+4−7: Inside critical section
+4−7: End of critical section
+4−8: Non−critical Section
+4−8: End of non−critical Section
+4−8: Critical section
+4−8: Inside critical section
+4−8: End of critical section
+4−9: Non−critical Section
+4−9: End of non−critical Section
+4−9: Critical section
+4−9: Inside critical section
+4−9: End of critical section
+5−0: Non−critical Section
+5−0: End of non−critical Section
+5−0: Critical section
+5−0: Inside critical section
+5−0: End of critical section
+5−1: Non−critical Section
+5−1: End of non−critical Section
+5−1: Critical section
+5−1: Inside critical section
+5−1: End of critical section
+5−2: Non−critical Section
+5−2: End of non−critical Section
+5−2: Critical section
+5−2: Inside critical section
+5−2: End of critical section
+5−3: Non−critical Section
+5−3: End of non−critical Section
+5−3: Critical section
+5−3: Inside critical section
+5−3: End of critical section
+5−4: Non−critical Section
+5−4: End of non−critical Section
+5−4: Critical section
+5−4: Inside critical section
+5−4: End of critical section
+5−5: Non−critical Section
+5−5: End of non−critical Section
+5−5: Critical section
+5−5: Inside critical section
+5−5: End of critical section
+5−6: Non−critical Section
+5−6: End of non−critical Section
+5−6: Critical section
+5−6: Inside critical section
+5−6: End of critical section
+5−7: Non−critical Section
+5−7: End of non−critical Section
+5−7: Critical section
+5−7: Inside critical section
+5−7: End of critical section
+5−8: Non−critical Section
+5−8: End of non−critical Section
+5−8: Critical section
+5−8: Inside critical section
+5−8: End of critical section
+5−9: Non−critical Section
+5−9: End of non−critical Section
+5−9: Critical section
+5−9: Inside critical section
+5−9: End of critical section
+6−0: Non−critical Section
+6−0: End of non−critical Section
+6−0: Critical section
+6−0: Inside critical section
+6−0: End of critical section
+6−1: Non−critical Section
+6−1: End of non−critical Section
+6−1: Critical section
+6−1: Inside critical section
+6−1: End of critical section
+6−2: Non−critical Section
+6−2: End of non−critical Section
+6−2: Critical section
+6−2: Inside critical section
+6−2: End of critical section
+6−3: Non−critical Section
+6−3: End of non−critical Section
+6−3: Critical section
+6−3: Inside critical section
+6−3: End of critical section
+6−4: Non−critical Section
+6−4: End of non−critical Section
+6−4: Critical section
+6−4: Inside critical section
+6−4: End of critical section
+6−5: Non−critical Section
+6−5: End of non−critical Section
+6−5: Critical section
+6−5: Inside critical section
+6−5: End of critical section
+6−6: Non−critical Section
+6−6: End of non−critical Section
+6−6: Critical section
+6−6: Inside critical section
+6−6: End of critical section
+6−7: Non−critical Section
+6−7: End of non−critical Section
+6−7: Critical section
+6−7: Inside critical section
+6−7: End of critical section
+6−8: Non−critical Section
+6−8: End of non−critical Section
+6−8: Critical section
+6−8: Inside critical section
+6−8: End of critical section
+6−9: Non−critical Section
+6−9: End of non−critical Section
+6−9: Critical section
+6−9: Inside critical section
+6−9: End of critical section
+7−0: Non−critical Section
+7−0: End of non−critical Section
+7−0: Critical section
+7−0: Inside critical section
+7−0: End of critical section
+7−1: Non−critical Section
+7−1: End of non−critical Section
+7−1: Critical section
+7−1: Inside critical section
+7−1: End of critical section
+7−2: Non−critical Section
+7−2: End of non−critical Section
+7−2: Critical section
+7−2: Inside critical section
+7−2: End of critical section
+7−3: Non−critical Section
+7−3: End of non−critical Section
+7−3: Critical section
+7−3: Inside critical section
+7−3: End of critical section
+7−4: Non−critical Section
+7−4: End of non−critical Section
+7−4: Critical section
+7−4: Inside critical section
+7−4: End of critical section
+7−5: Non−critical Section
+7−5: End of non−critical Section
+7−5: Critical section
+7−5: Inside critical section
+7−5: End of critical section
+7−6: Non−critical Section
+7−6: End of non−critical Section
+7−6: Critical section
+7−6: Inside critical section
+7−6: End of critical section
+7−7: Non−critical Section
+7−7: End of non−critical Section
+7−7: Critical section
+7−7: Inside critical section
+7−7: End of critical section
+7−8: Non−critical Section
+7−8: End of non−critical Section
+7−8: Critical section
+7−8: Inside critical section
+7−8: End of critical section
+7−9: Non−critical Section
+7−9: End of non−critical Section
+7−9: Critical section
+7−9: Inside critical section
+7−9: End of critical section
+Valor final del contador 80
+fin
+[3]+  Hecho                   emacs 04_lock.py
+[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ git add 04_lock.py 
+[?2004l[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ git commit loc[K[K[K-m "lock"
+[?2004l[main 934a850] lock
+ 1 file changed, 8 insertions(+), 20 deletions(-)
+[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ git pysh[K[K[Kush
+[?2004lEnumerando objetos: 5, listo.
+Contando objetos:  20% (1/5)Contando objetos:  40% (2/5)Contando objetos:  60% (3/5)Contando objetos:  80% (4/5)Contando objetos: 100% (5/5)Contando objetos: 100% (5/5), listo.
+Compresión delta usando hasta 6 hilos
+Comprimiendo objetos:  33% (1/3)Comprimiendo objetos:  66% (2/3)Comprimiendo objetos: 100% (3/3)Comprimiendo objetos: 100% (3/3), listo.
+Escribiendo objetos:  33% (1/3)Escribiendo objetos:  66% (2/3)Escribiendo objetos: 100% (3/3)Escribiendo objetos: 100% (3/3), 362 bytes | 362.00 KiB/s, listo.
+Total 3 (delta 2), reusados 0 (delta 0), pack-reusados 0
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To github.com:Miguel-Caballero-Rod/semaphore_M.git
+   e1b2f8f..934a850  main -> main
+[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ git pushcommit -m "lock"[1Padd 04_lock.py python3[C[C[C[C[C[C[C[C[C[C[C[C[1Pemacs 04_lock.py &
+[?2004l[3] 16068
+[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ emacs 04_lock.py &[10Pgit pushemacs 04_lock.py &[1P[1P[1P[1P[1@b[19@ounded_semaphore.py[1P[1P[1P
+[?2004l[4] 16193
+[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ emacs 04_bounded_semaphore.py &[13Plock[C[C[C[C[C[10Pgit pushcommit -m "lock"[1Padd 04_lock.py python3[C[C[C[C[C[C[C[C[C[C[C[C[1Pemacs 04_lock.py &python3 04_lock.py [C[C[C[1P [1P [1P [1P [1P [1P [1P b ounded_semaphore.py 
+[?2004lValor inicial del contador 0
+0−0: Non−critical Section
+1−0: Non−critical Section
+2−0: Non−critical Section
+3−0: Non−critical Section
+4−0: Non−critical Section
+5−0: Non−critical Section
+6−0: Non−critical Section
+7−0: Non−critical Section
+1−0: End of non−critical Section
+1−0: Critical section
+1−0: Inside critical section
+1−0: End of critical section
+1−1: Non−critical Section
+2−0: End of non−critical Section
+2−0: Critical section
+2−0: Inside critical section
+4−0: End of non−critical Section
+2−0: End of critical section
+2−1: Non−critical Section
+4−0: Critical section
+4−0: Inside critical section
+3−0: End of non−critical Section
+5−0: End of non−critical Section
+7−0: End of non−critical Section
+1−1: End of non−critical Section
+6−0: End of non−critical Section
+0−0: End of non−critical Section
+2−1: End of non−critical Section
+4−0: End of critical section
+4−1: Non−critical Section
+3−0: Critical section
+3−0: Inside critical section
+4−1: End of non−critical Section
+3−0: End of critical section
+3−1: Non−critical Section
+5−0: Critical section
+5−0: Inside critical section
+3−1: End of non−critical Section
+5−0: End of critical section
+5−1: Non−critical Section
+7−0: Critical section
+7−0: Inside critical section
+5−1: End of non−critical Section
+7−0: End of critical section
+7−1: Non−critical Section
+1−1: Critical section
+1−1: Inside critical section
+1−1: End of critical section
+1−2: Non−critical Section
+6−0: Critical section
+6−0: Inside critical section
+1−2: End of non−critical Section
+6−0: End of critical section
+6−1: Non−critical Section
+0−0: Critical section
+0−0: Inside critical section
+0−0: End of critical section
+0−1: Non−critical Section
+2−1: Critical section
+2−1: Inside critical section
+7−1: End of non−critical Section
+6−1: End of non−critical Section
+2−1: End of critical section
+2−2: Non−critical Section
+4−1: Critical section
+4−1: Inside critical section
+2−2: End of non−critical Section
+0−1: End of non−critical Section
+4−1: End of critical section
+4−2: Non−critical Section
+3−1: Critical section
+3−1: Inside critical section
+4−2: End of non−critical Section
+3−1: End of critical section
+3−2: Non−critical Section
+5−1: Critical section
+5−1: Inside critical section
+3−2: End of non−critical Section
+5−1: End of critical section
+5−2: Non−critical Section
+1−2: Critical section
+1−2: Inside critical section
+1−2: End of critical section
+1−3: Non−critical Section
+7−1: Critical section
+7−1: Inside critical section
+5−2: End of non−critical Section
+7−1: End of critical section
+7−2: Non−critical Section
+6−1: Critical section
+6−1: Inside critical section
+1−3: End of non−critical Section
+6−1: End of critical section
+6−2: Non−critical Section
+2−2: Critical section
+2−2: Inside critical section
+7−2: End of non−critical Section
+2−2: End of critical section
+2−3: Non−critical Section
+0−1: Critical section
+0−1: Inside critical section
+2−3: End of non−critical Section
+0−1: End of critical section
+0−2: Non−critical Section
+4−2: Critical section
+4−2: Inside critical section
+6−2: End of non−critical Section
+4−2: End of critical section
+4−3: Non−critical Section
+3−2: Critical section
+3−2: Inside critical section
+0−2: End of non−critical Section
+4−3: End of non−critical Section
+3−2: End of critical section
+3−3: Non−critical Section
+5−2: Critical section
+5−2: Inside critical section
+5−2: End of critical section
+5−3: Non−critical Section
+1−3: Critical section
+1−3: Inside critical section
+5−3: End of non−critical Section
+3−3: End of non−critical Section
+1−3: End of critical section
+1−4: Non−critical Section
+7−2: Critical section
+7−2: Inside critical section
+7−2: End of critical section
+7−3: Non−critical Section
+2−3: Critical section
+2−3: Inside critical section
+1−4: End of non−critical Section
+7−3: End of non−critical Section
+2−3: End of critical section
+2−4: Non−critical Section
+6−2: Critical section
+6−2: Inside critical section
+6−2: End of critical section
+6−3: Non−critical Section
+0−2: Critical section
+0−2: Inside critical section
+0−2: End of critical section
+0−3: Non−critical Section
+4−3: Critical section
+4−3: Inside critical section
+2−4: End of non−critical Section
+6−3: End of non−critical Section
+4−3: End of critical section
+4−4: Non−critical Section
+5−3: Critical section
+5−3: Inside critical section
+0−3: End of non−critical Section
+4−4: End of non−critical Section
+5−3: End of critical section
+5−4: Non−critical Section
+3−3: Critical section
+3−3: Inside critical section
+5−4: End of non−critical Section
+3−3: End of critical section
+3−4: Non−critical Section
+1−4: Critical section
+1−4: Inside critical section
+1−4: End of critical section
+1−5: Non−critical Section
+7−3: Critical section
+7−3: Inside critical section
+1−5: End of non−critical Section
+3−4: End of non−critical Section
+7−3: End of critical section
+7−4: Non−critical Section
+2−4: Critical section
+2−4: Inside critical section
+7−4: End of non−critical Section
+2−4: End of critical section
+2−5: Non−critical Section
+6−3: Critical section
+6−3: Inside critical section
+6−3: End of critical section
+6−4: Non−critical Section
+0−3: Critical section
+0−3: Inside critical section
+0−3: End of critical section
+0−4: Non−critical Section
+4−4: Critical section
+4−4: Inside critical section
+2−5: End of non−critical Section
+4−4: End of critical section
+4−5: Non−critical Section
+5−4: Critical section
+5−4: Inside critical section
+4−5: End of non−critical Section
+0−4: End of non−critical Section
+5−4: End of critical section
+5−5: Non−critical Section
+1−5: Critical section
+1−5: Inside critical section
+6−4: End of non−critical Section
+1−5: End of critical section
+1−6: Non−critical Section
+3−4: Critical section
+3−4: Inside critical section
+1−6: End of non−critical Section
+5−5: End of non−critical Section
+3−4: End of critical section
+3−5: Non−critical Section
+7−4: Critical section
+7−4: Inside critical section
+7−4: End of critical section
+7−5: Non−critical Section
+2−5: Critical section
+2−5: Inside critical section
+7−5: End of non−critical Section
+2−5: End of critical section
+2−6: Non−critical Section
+4−5: Critical section
+4−5: Inside critical section
+3−5: End of non−critical Section
+2−6: End of non−critical Section
+4−5: End of critical section
+4−6: Non−critical Section
+0−4: Critical section
+0−4: Inside critical section
+0−4: End of critical section
+0−5: Non−critical Section
+6−4: Critical section
+6−4: Inside critical section
+0−5: End of non−critical Section
+4−6: End of non−critical Section
+6−4: End of critical section
+6−5: Non−critical Section
+1−6: Critical section
+1−6: Inside critical section
+1−6: End of critical section
+1−7: Non−critical Section
+5−5: Critical section
+5−5: Inside critical section
+5−5: End of critical section
+5−6: Non−critical Section
+7−5: Critical section
+7−5: Inside critical section
+1−7: End of non−critical Section
+7−5: End of critical section
+7−6: Non−critical Section
+3−5: Critical section
+3−5: Inside critical section
+6−5: End of non−critical Section
+7−6: End of non−critical Section
+3−5: End of critical section
+3−6: Non−critical Section
+2−6: Critical section
+2−6: Inside critical section
+3−6: End of non−critical Section
+5−6: End of non−critical Section
+2−6: End of critical section
+2−7: Non−critical Section
+0−5: Critical section
+0−5: Inside critical section
+0−5: End of critical section
+0−6: Non−critical Section
+4−6: Critical section
+4−6: Inside critical section
+2−7: End of non−critical Section
+0−6: End of non−critical Section
+4−6: End of critical section
+4−7: Non−critical Section
+1−7: Critical section
+1−7: Inside critical section
+4−7: End of non−critical Section
+1−7: End of critical section
+1−8: Non−critical Section
+6−5: Critical section
+6−5: Inside critical section
+1−8: End of non−critical Section
+6−5: End of critical section
+6−6: Non−critical Section
+7−6: Critical section
+7−6: Inside critical section
+6−6: End of non−critical Section
+7−6: End of critical section
+7−7: Non−critical Section
+3−6: Critical section
+3−6: Inside critical section
+7−7: End of non−critical Section
+3−6: End of critical section
+3−7: Non−critical Section
+5−6: Critical section
+5−6: Inside critical section
+3−7: End of non−critical Section
+5−6: End of critical section
+5−7: Non−critical Section
+2−7: Critical section
+2−7: Inside critical section
+2−7: End of critical section
+2−8: Non−critical Section
+0−6: Critical section
+0−6: Inside critical section
+0−6: End of critical section
+0−7: Non−critical Section
+4−7: Critical section
+4−7: Inside critical section
+4−7: End of critical section
+4−8: Non−critical Section
+1−8: Critical section
+1−8: Inside critical section
+0−7: End of non−critical Section
+4−8: End of non−critical Section
+2−8: End of non−critical Section
+5−7: End of non−critical Section
+1−8: End of critical section
+1−9: Non−critical Section
+6−6: Critical section
+6−6: Inside critical section
+6−6: End of critical section
+6−7: Non−critical Section
+7−7: Critical section
+7−7: Inside critical section
+1−9: End of non−critical Section
+7−7: End of critical section
+7−8: Non−critical Section
+3−7: Critical section
+3−7: Inside critical section
+6−7: End of non−critical Section
+3−7: End of critical section
+3−8: Non−critical Section
+0−7: Critical section
+0−7: Inside critical section
+0−7: End of critical section
+0−8: Non−critical Section
+4−8: Critical section
+4−8: Inside critical section
+3−8: End of non−critical Section
+7−8: End of non−critical Section
+0−8: End of non−critical Section
+4−8: End of critical section
+4−9: Non−critical Section
+2−8: Critical section
+2−8: Inside critical section
+2−8: End of critical section
+2−9: Non−critical Section
+5−7: Critical section
+5−7: Inside critical section
+2−9: End of non−critical Section
+4−9: End of non−critical Section
+5−7: End of critical section
+5−8: Non−critical Section
+1−9: Critical section
+1−9: Inside critical section
+5−8: End of non−critical Section
+1−9: End of critical section
+6−7: Critical section
+6−7: Inside critical section
+6−7: End of critical section
+6−8: Non−critical Section
+3−8: Critical section
+3−8: Inside critical section
+6−8: End of non−critical Section
+3−8: End of critical section
+3−9: Non−critical Section
+7−8: Critical section
+7−8: Inside critical section
+7−8: End of critical section
+7−9: Non−critical Section
+0−8: Critical section
+0−8: Inside critical section
+7−9: End of non−critical Section
+3−9: End of non−critical Section
+0−8: End of critical section
+0−9: Non−critical Section
+2−9: Critical section
+2−9: Inside critical section
+2−9: End of critical section
+4−9: Critical section
+4−9: Inside critical section
+0−9: End of non−critical Section
+4−9: End of critical section
+5−8: Critical section
+5−8: Inside critical section
+5−8: End of critical section
+5−9: Non−critical Section
+6−8: Critical section
+6−8: Inside critical section
+6−8: End of critical section
+6−9: Non−critical Section
+7−9: Critical section
+7−9: Inside critical section
+5−9: End of non−critical Section
+7−9: End of critical section
+3−9: Critical section
+3−9: Inside critical section
+3−9: End of critical section
+0−9: Critical section
+0−9: Inside critical section
+6−9: End of non−critical Section
+0−9: End of critical section
+5−9: Critical section
+5−9: Inside critical section
+5−9: End of critical section
+6−9: Critical section
+6−9: Inside critical section
+6−9: End of critical section
+Valor final del contador 80
+fin
+[3]-  Hecho                   emacs 04_lock.py
+[4]+  Hecho                   emacs 04_bounded_semaphore.py
+[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ python3 04_bounded_semaphore.py [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pemacs 04_bounded_semaphore.py &python3 04_bounded_semaphore.py [C[C[1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P l ock.py 
+[?2004lValor inicial del contador 0
+0−0: Non−critical Section
+1−0: Non−critical Section
+2−0: Non−critical Section
+3−0: Non−critical Section
+4−0: Non−critical Section
+5−0: Non−critical Section
+6−0: Non−critical Section
+7−0: Non−critical Section
+2−0: End of non−critical Section
+2−0: Critical section
+2−0: Inside critical section
+5−0: End of non−critical Section
+6−0: End of non−critical Section
+7−0: End of non−critical Section
+2−0: End of critical section
+2−1: Non−critical Section
+5−0: Critical section
+5−0: Inside critical section
+0−0: End of non−critical Section
+2−1: End of non−critical Section
+3−0: End of non−critical Section
+5−0: End of critical section
+5−1: Non−critical Section
+6−0: Critical section
+6−0: Inside critical section
+4−0: End of non−critical Section
+5−1: End of non−critical Section
+1−0: End of non−critical Section
+6−0: End of critical section
+6−1: Non−critical Section
+7−0: Critical section
+7−0: Inside critical section
+6−1: End of non−critical Section
+7−0: End of critical section
+7−1: Non−critical Section
+0−0: Critical section
+0−0: Inside critical section
+7−1: End of non−critical Section
+0−0: End of critical section
+0−1: Non−critical Section
+2−1: Critical section
+2−1: Inside critical section
+0−1: End of non−critical Section
+2−1: End of critical section
+2−2: Non−critical Section
+3−0: Critical section
+3−0: Inside critical section
+2−2: End of non−critical Section
+3−0: End of critical section
+3−1: Non−critical Section
+4−0: Critical section
+4−0: Inside critical section
+3−1: End of non−critical Section
+4−0: End of critical section
+4−1: Non−critical Section
+5−1: Critical section
+5−1: Inside critical section
+4−1: End of non−critical Section
+5−1: End of critical section
+5−2: Non−critical Section
+1−0: Critical section
+1−0: Inside critical section
+1−0: End of critical section
+1−1: Non−critical Section
+6−1: Critical section
+6−1: Inside critical section
+6−1: End of critical section
+6−2: Non−critical Section
+7−1: Critical section
+7−1: Inside critical section
+5−2: End of non−critical Section
+7−1: End of critical section
+7−2: Non−critical Section
+0−1: Critical section
+0−1: Inside critical section
+7−2: End of non−critical Section
+6−2: End of non−critical Section
+0−1: End of critical section
+0−2: Non−critical Section
+2−2: Critical section
+2−2: Inside critical section
+1−1: End of non−critical Section
+0−2: End of non−critical Section
+2−2: End of critical section
+2−3: Non−critical Section
+3−1: Critical section
+3−1: Inside critical section
+3−1: End of critical section
+3−2: Non−critical Section
+4−1: Critical section
+4−1: Inside critical section
+3−2: End of non−critical Section
+4−1: End of critical section
+4−2: Non−critical Section
+5−2: Critical section
+5−2: Inside critical section
+2−3: End of non−critical Section
+4−2: End of non−critical Section
+5−2: End of critical section
+5−3: Non−critical Section
+7−2: Critical section
+7−2: Inside critical section
+5−3: End of non−critical Section
+7−2: End of critical section
+7−3: Non−critical Section
+6−2: Critical section
+6−2: Inside critical section
+7−3: End of non−critical Section
+6−2: End of critical section
+6−3: Non−critical Section
+1−1: Critical section
+1−1: Inside critical section
+6−3: End of non−critical Section
+^CTraceback (most recent call last):
+  File "/home/alumno/semaphore_M/04_lock.py", line 39, in <module>
+    main()
+  File "/home/alumno/semaphore_M/04_lock.py", line 35, in main
+    p.join()
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 149, in join
+    res = self._popen.wait(timeout)
+  File "/usr/lib/python3.10/multiprocessing/popen_fork.py", line 43, in wait
+    return self.poll(os.WNOHANG if timeout == 0.0 else 0)
+  File "/usr/lib/python3.10/multiprocessing/popen_fork.py", line 27, in poll
+    pid, sts = os.waitpid(self.pid, flag)
+KeyboardInterrupt
+Process Process-1:
+Process Process-3:
+Process Process-6:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/alumno/semaphore_M/04_lock.py", line 17, in task
+    lock.acquire()
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/alumno/semaphore_M/04_lock.py", line 17, in task
+    lock.acquire()
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/alumno/semaphore_M/04_lock.py", line 17, in task
+    lock.acquire()
+KeyboardInterrupt
+Process Process-2:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/alumno/semaphore_M/04_lock.py", line 21, in task
+    time.sleep(random.random())
+KeyboardInterrupt
+Process Process-8:
+Process Process-4:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/alumno/semaphore_M/04_lock.py", line 17, in task
+    lock.acquire()
+Process Process-5:
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/alumno/semaphore_M/04_lock.py", line 17, in task
+    lock.acquire()
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/alumno/semaphore_M/04_lock.py", line 17, in task
+    lock.acquire()
+KeyboardInterrupt
+Process Process-7:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/alumno/semaphore_M/04_lock.py", line 17, in task
+    lock.acquire()
+KeyboardInterrupt
+
+[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ git add l[K04_lock.py 
+[?2004l[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ git commit -m "lock con sleep"
+[?2004l[main b0fd44c] lock con sleep
+ 1 file changed, 9 insertions(+), 5 deletions(-)
+[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ git commit -m "lock con sleep"[11Padd 04_lock.py [C[1P [1P [1P [1P [1P [1P [1P b ounded_semaphore.py 
+[?2004l[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ git add 04_bounded_semaphore.py [2Pcommit -m "lock con sleep"[1P[1P[1P[1P[1@b[1@o[1@u[1@n[1@d[1@e[1@d
+[?2004l[main d47bc14] bounded con sleep
+ 1 file changed, 10 insertions(+), 5 deletions(-)
+[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ git push
+[?2004lEnumerando objetos: 9, listo.
+Contando objetos:  11% (1/9)Contando objetos:  22% (2/9)Contando objetos:  33% (3/9)Contando objetos:  44% (4/9)Contando objetos:  55% (5/9)Contando objetos:  66% (6/9)Contando objetos:  77% (7/9)Contando objetos:  88% (8/9)Contando objetos: 100% (9/9)Contando objetos: 100% (9/9), listo.
+Compresión delta usando hasta 6 hilos
+Comprimiendo objetos:  16% (1/6)Comprimiendo objetos:  33% (2/6)Comprimiendo objetos:  50% (3/6)Comprimiendo objetos:  66% (4/6)Comprimiendo objetos:  83% (5/6)Comprimiendo objetos: 100% (6/6)Comprimiendo objetos: 100% (6/6), listo.
+Escribiendo objetos:  16% (1/6)Escribiendo objetos:  33% (2/6)Escribiendo objetos:  50% (3/6)Escribiendo objetos:  83% (5/6)Escribiendo objetos: 100% (6/6)Escribiendo objetos: 100% (6/6), 685 bytes | 685.00 KiB/s, listo.
+Total 6 (delta 4), reusados 0 (delta 0), pack-reusados 0
+remote: Resolving deltas:   0% (0/4)[Kremote: Resolving deltas:  25% (1/4)[Kremote: Resolving deltas:  50% (2/4)[Kremote: Resolving deltas:  75% (3/4)[Kremote: Resolving deltas: 100% (4/4)[Kremote: Resolving deltas: 100% (4/4), completed with 2 local objects.[K
+To github.com:Miguel-Caballero-Rod/semaphore_M.git
+   934a850..d47bc14  main -> main
+[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ git pull
+[?2004lYa está actualizado.
+[2]+  Hecho                   emacs 04_lock.py.py
+[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ ls
+[?2004l01.py  02.py  03.py  04_bounded_semaphore.py  04_bounded_semaphore.py~  04_lock.py  04.py
+[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ cat 04_bounded_semaphore.py
+[?2004lfrom multiprocessing import Process
+from multiprocessing import current_process
+from multiprocessing import Value, Array
+from multiprocessing import BoundedSemaphore
+import time
+import random
+
+N = 8
+
+def task(common, tid, semaphore):
+    a = 0
+    for i in range(10):
+        print(f"{tid}−{i}: Non−critical Section", flush=True)
+        time.sleep(random.random())
+        a += 1
+        print(f"{tid}−{i}: End of non−critical Section", flush=True)
+        semaphore.acquire()
+        print(f"{tid}−{i}: Critical section", flush=True)
+        v = common.value + 1
+        print(f"{tid}−{i}: Inside critical section", flush=True)
+        time.sleep(random.random())
+        common.value = v
+        print(f"{tid}−{i}: End of critical section", flush=True)
+        semaphore.release()
+        
+def main():
+    lp = []
+    common = Value("i", 0)
+    semaphore = BoundedSemaphore(1)
+    for tid in range(N):
+        lp.append(Process(target=task, args=(common, tid, semaphore)))
+    print (f"Valor inicial del contador {common.value}")
+    for p in lp:
+        p.start()
+    for p in lp:
+        p.join()
+    print (f"Valor final del contador {common.value}")
+    print ("fin")
+if __name__ == "__main__":
+    main()
+[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ rm 04_bounded_semaphore.py~
+[?2004l[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ ls
+[?2004l01.py  02.py  03.py  04_bounded_semaphore.py  04_lock.py  04.py
+[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ rm 01.py 02.py 03.py 
+[?2004l[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ ls
+[?2004l04_bounded_semaphore.py  04_lock.py  04.py
+[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ git add .
+[?2004l[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ git commit -m "scripts finales"
+[?2004l[main 31d01bc] scripts finales
+ 4 files changed, 164 deletions(-)
+ delete mode 100644 01.py
+ delete mode 100644 02.py
+ delete mode 100644 03.py
+ delete mode 100644 04_bounded_semaphore.py~
+[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ git push
+[?2004lEnumerando objetos: 3, listo.
+Contando objetos:  33% (1/3)Contando objetos:  66% (2/3)Contando objetos: 100% (3/3)Contando objetos: 100% (3/3), listo.
+Compresión delta usando hasta 6 hilos
+Comprimiendo objetos:  50% (1/2)Comprimiendo objetos: 100% (2/2)Comprimiendo objetos: 100% (2/2), listo.
+Escribiendo objetos:  50% (1/2)Escribiendo objetos: 100% (2/2)Escribiendo objetos: 100% (2/2), 216 bytes | 216.00 KiB/s, listo.
+Total 2 (delta 1), reusados 0 (delta 0), pack-reusados 0
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To github.com:Miguel-Caballero-Rod/semaphore_M.git
+   d47bc14..31d01bc  main -> main
+[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ python3 04_bounded_semaphore.py >dekker_ dekker_[C[C[C[C[C[C[Cbounded_semaphore.txt
+[?2004l[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ cat dekker_bounded_semaphore.txt 
+[?2004lValor inicial del contador 0
+0−0: Non−critical Section
+1−0: Non−critical Section
+2−0: Non−critical Section
+3−0: Non−critical Section
+4−0: Non−critical Section
+5−0: Non−critical Section
+6−0: Non−critical Section
+7−0: Non−critical Section
+6−0: End of non−critical Section
+6−0: Critical section
+6−0: Inside critical section
+6−0: End of critical section
+6−1: Non−critical Section
+4−0: End of non−critical Section
+4−0: Critical section
+4−0: Inside critical section
+4−0: End of critical section
+4−1: Non−critical Section
+7−0: End of non−critical Section
+7−0: Critical section
+7−0: Inside critical section
+4−1: End of non−critical Section
+6−1: End of non−critical Section
+0−0: End of non−critical Section
+7−0: End of critical section
+7−1: Non−critical Section
+4−1: Critical section
+4−1: Inside critical section
+7−1: End of non−critical Section
+5−0: End of non−critical Section
+4−1: End of critical section
+4−2: Non−critical Section
+6−1: Critical section
+6−1: Inside critical section
+1−0: End of non−critical Section
+2−0: End of non−critical Section
+3−0: End of non−critical Section
+6−1: End of critical section
+6−2: Non−critical Section
+0−0: Critical section
+0−0: Inside critical section
+4−2: End of non−critical Section
+6−2: End of non−critical Section
+0−0: End of critical section
+0−1: Non−critical Section
+7−1: Critical section
+7−1: Inside critical section
+0−1: End of non−critical Section
+7−1: End of critical section
+7−2: Non−critical Section
+5−0: Critical section
+5−0: Inside critical section
+5−0: End of critical section
+5−1: Non−critical Section
+1−0: Critical section
+1−0: Inside critical section
+7−2: End of non−critical Section
+5−1: End of non−critical Section
+1−0: End of critical section
+1−1: Non−critical Section
+2−0: Critical section
+2−0: Inside critical section
+2−0: End of critical section
+2−1: Non−critical Section
+3−0: Critical section
+3−0: Inside critical section
+2−1: End of non−critical Section
+1−1: End of non−critical Section
+3−0: End of critical section
+3−1: Non−critical Section
+4−2: Critical section
+4−2: Inside critical section
+3−1: End of non−critical Section
+4−2: End of critical section
+4−3: Non−critical Section
+6−2: Critical section
+6−2: Inside critical section
+6−2: End of critical section
+6−3: Non−critical Section
+0−1: Critical section
+0−1: Inside critical section
+6−3: End of non−critical Section
+0−1: End of critical section
+0−2: Non−critical Section
+7−2: Critical section
+7−2: Inside critical section
+4−3: End of non−critical Section
+7−2: End of critical section
+7−3: Non−critical Section
+5−1: Critical section
+5−1: Inside critical section
+0−2: End of non−critical Section
+7−3: End of non−critical Section
+5−1: End of critical section
+5−2: Non−critical Section
+2−1: Critical section
+2−1: Inside critical section
+2−1: End of critical section
+2−2: Non−critical Section
+1−1: Critical section
+1−1: Inside critical section
+5−2: End of non−critical Section
+2−2: End of non−critical Section
+1−1: End of critical section
+1−2: Non−critical Section
+3−1: Critical section
+3−1: Inside critical section
+1−2: End of non−critical Section
+3−1: End of critical section
+3−2: Non−critical Section
+6−3: Critical section
+6−3: Inside critical section
+3−2: End of non−critical Section
+6−3: End of critical section
+6−4: Non−critical Section
+4−3: Critical section
+4−3: Inside critical section
+4−3: End of critical section
+4−4: Non−critical Section
+0−2: Critical section
+0−2: Inside critical section
+6−4: End of non−critical Section
+0−2: End of critical section
+0−3: Non−critical Section
+7−3: Critical section
+7−3: Inside critical section
+4−4: End of non−critical Section
+0−3: End of non−critical Section
+7−3: End of critical section
+7−4: Non−critical Section
+5−2: Critical section
+5−2: Inside critical section
+5−2: End of critical section
+5−3: Non−critical Section
+2−2: Critical section
+2−2: Inside critical section
+2−2: End of critical section
+2−3: Non−critical Section
+1−2: Critical section
+1−2: Inside critical section
+1−2: End of critical section
+1−3: Non−critical Section
+3−2: Critical section
+3−2: Inside critical section
+2−3: End of non−critical Section
+1−3: End of non−critical Section
+5−3: End of non−critical Section
+7−4: End of non−critical Section
+3−2: End of critical section
+3−3: Non−critical Section
+6−4: Critical section
+6−4: Inside critical section
+3−3: End of non−critical Section
+6−4: End of critical section
+6−5: Non−critical Section
+4−4: Critical section
+4−4: Inside critical section
+4−4: End of critical section
+4−5: Non−critical Section
+0−3: Critical section
+0−3: Inside critical section
+6−5: End of non−critical Section
+0−3: End of critical section
+0−4: Non−critical Section
+2−3: Critical section
+2−3: Inside critical section
+2−3: End of critical section
+2−4: Non−critical Section
+1−3: Critical section
+1−3: Inside critical section
+4−5: End of non−critical Section
+0−4: End of non−critical Section
+1−3: End of critical section
+1−4: Non−critical Section
+5−3: Critical section
+5−3: Inside critical section
+5−3: End of critical section
+5−4: Non−critical Section
+7−4: Critical section
+7−4: Inside critical section
+2−4: End of non−critical Section
+1−4: End of non−critical Section
+7−4: End of critical section
+7−5: Non−critical Section
+3−3: Critical section
+3−3: Inside critical section
+5−4: End of non−critical Section
+7−5: End of non−critical Section
+3−3: End of critical section
+3−4: Non−critical Section
+6−5: Critical section
+6−5: Inside critical section
+3−4: End of non−critical Section
+6−5: End of critical section
+6−6: Non−critical Section
+4−5: Critical section
+4−5: Inside critical section
+4−5: End of critical section
+4−6: Non−critical Section
+0−4: Critical section
+0−4: Inside critical section
+4−6: End of non−critical Section
+0−4: End of critical section
+0−5: Non−critical Section
+2−4: Critical section
+2−4: Inside critical section
+2−4: End of critical section
+2−5: Non−critical Section
+1−4: Critical section
+1−4: Inside critical section
+6−6: End of non−critical Section
+1−4: End of critical section
+1−5: Non−critical Section
+5−4: Critical section
+5−4: Inside critical section
+2−5: End of non−critical Section
+0−5: End of non−critical Section
+5−4: End of critical section
+5−5: Non−critical Section
+7−5: Critical section
+7−5: Inside critical section
+5−5: End of non−critical Section
+7−5: End of critical section
+7−6: Non−critical Section
+3−4: Critical section
+3−4: Inside critical section
+3−4: End of critical section
+3−5: Non−critical Section
+4−6: Critical section
+4−6: Inside critical section
+1−5: End of non−critical Section
+7−6: End of non−critical Section
+3−5: End of non−critical Section
+4−6: End of critical section
+4−7: Non−critical Section
+6−6: Critical section
+6−6: Inside critical section
+4−7: End of non−critical Section
+6−6: End of critical section
+6−7: Non−critical Section
+2−5: Critical section
+2−5: Inside critical section
+2−5: End of critical section
+2−6: Non−critical Section
+0−5: Critical section
+0−5: Inside critical section
+6−7: End of non−critical Section
+0−5: End of critical section
+0−6: Non−critical Section
+5−5: Critical section
+5−5: Inside critical section
+2−6: End of non−critical Section
+0−6: End of non−critical Section
+5−5: End of critical section
+5−6: Non−critical Section
+1−5: Critical section
+1−5: Inside critical section
+1−5: End of critical section
+1−6: Non−critical Section
+7−6: Critical section
+7−6: Inside critical section
+5−6: End of non−critical Section
+1−6: End of non−critical Section
+7−6: End of critical section
+7−7: Non−critical Section
+3−5: Critical section
+3−5: Inside critical section
+7−7: End of non−critical Section
+3−5: End of critical section
+3−6: Non−critical Section
+4−7: Critical section
+4−7: Inside critical section
+3−6: End of non−critical Section
+4−7: End of critical section
+4−8: Non−critical Section
+6−7: Critical section
+6−7: Inside critical section
+6−7: End of critical section
+6−8: Non−critical Section
+2−6: Critical section
+2−6: Inside critical section
+4−8: End of non−critical Section
+6−8: End of non−critical Section
+2−6: End of critical section
+2−7: Non−critical Section
+0−6: Critical section
+0−6: Inside critical section
+0−6: End of critical section
+0−7: Non−critical Section
+5−6: Critical section
+5−6: Inside critical section
+5−6: End of critical section
+5−7: Non−critical Section
+1−6: Critical section
+1−6: Inside critical section
+2−7: End of non−critical Section
+0−7: End of non−critical Section
+1−6: End of critical section
+1−7: Non−critical Section
+7−7: Critical section
+7−7: Inside critical section
+7−7: End of critical section
+7−8: Non−critical Section
+3−6: Critical section
+3−6: Inside critical section
+5−7: End of non−critical Section
+1−7: End of non−critical Section
+7−8: End of non−critical Section
+3−6: End of critical section
+3−7: Non−critical Section
+4−8: Critical section
+4−8: Inside critical section
+3−7: End of non−critical Section
+4−8: End of critical section
+4−9: Non−critical Section
+6−8: Critical section
+6−8: Inside critical section
+4−9: End of non−critical Section
+6−8: End of critical section
+6−9: Non−critical Section
+2−7: Critical section
+2−7: Inside critical section
+2−7: End of critical section
+2−8: Non−critical Section
+0−7: Critical section
+0−7: Inside critical section
+0−7: End of critical section
+0−8: Non−critical Section
+5−7: Critical section
+5−7: Inside critical section
+6−9: End of non−critical Section
+2−8: End of non−critical Section
+0−8: End of non−critical Section
+5−7: End of critical section
+5−8: Non−critical Section
+1−7: Critical section
+1−7: Inside critical section
+1−7: End of critical section
+1−8: Non−critical Section
+7−8: Critical section
+7−8: Inside critical section
+5−8: End of non−critical Section
+1−8: End of non−critical Section
+7−8: End of critical section
+7−9: Non−critical Section
+3−7: Critical section
+3−7: Inside critical section
+3−7: End of critical section
+3−8: Non−critical Section
+4−9: Critical section
+4−9: Inside critical section
+7−9: End of non−critical Section
+3−8: End of non−critical Section
+4−9: End of critical section
+6−9: Critical section
+6−9: Inside critical section
+6−9: End of critical section
+2−8: Critical section
+2−8: Inside critical section
+2−8: End of critical section
+2−9: Non−critical Section
+0−8: Critical section
+0−8: Inside critical section
+2−9: End of non−critical Section
+0−8: End of critical section
+0−9: Non−critical Section
+5−8: Critical section
+5−8: Inside critical section
+0−9: End of non−critical Section
+5−8: End of critical section
+5−9: Non−critical Section
+1−8: Critical section
+1−8: Inside critical section
+1−8: End of critical section
+1−9: Non−critical Section
+7−9: Critical section
+7−9: Inside critical section
+5−9: End of non−critical Section
+7−9: End of critical section
+3−8: Critical section
+3−8: Inside critical section
+1−9: End of non−critical Section
+3−8: End of critical section
+3−9: Non−critical Section
+2−9: Critical section
+2−9: Inside critical section
+2−9: End of critical section
+0−9: Critical section
+0−9: Inside critical section
+3−9: End of non−critical Section
+0−9: End of critical section
+5−9: Critical section
+5−9: Inside critical section
+5−9: End of critical section
+1−9: Critical section
+1−9: Inside critical section
+1−9: End of critical section
+3−9: Critical section
+3−9: Inside critical section
+3−9: End of critical section
+Valor final del contador 80
+fin
+[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ cat dekker_bounded_semaphore.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpython3 04_bounded_semaphore.py > dekker_bounded_semaphore.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txtl.txto.txtc.txtk.txt[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@l[1@o[1@c[1@k
+[?2004l[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ cat dekker_lock.txt 
+[?2004lValor inicial del contador 0
+0−0: Non−critical Section
+1−0: Non−critical Section
+2−0: Non−critical Section
+3−0: Non−critical Section
+4−0: Non−critical Section
+5−0: Non−critical Section
+6−0: Non−critical Section
+7−0: Non−critical Section
+0−0: End of non−critical Section
+0−0: Critical section
+0−0: Inside critical section
+6−0: End of non−critical Section
+1−0: End of non−critical Section
+0−0: End of critical section
+0−1: Non−critical Section
+6−0: Critical section
+6−0: Inside critical section
+4−0: End of non−critical Section
+6−0: End of critical section
+6−1: Non−critical Section
+1−0: Critical section
+1−0: Inside critical section
+2−0: End of non−critical Section
+6−1: End of non−critical Section
+7−0: End of non−critical Section
+5−0: End of non−critical Section
+1−0: End of critical section
+1−1: Non−critical Section
+4−0: Critical section
+4−0: Inside critical section
+3−0: End of non−critical Section
+0−1: End of non−critical Section
+4−0: End of critical section
+4−1: Non−critical Section
+2−0: Critical section
+2−0: Inside critical section
+1−1: End of non−critical Section
+2−0: End of critical section
+2−1: Non−critical Section
+6−1: Critical section
+6−1: Inside critical section
+4−1: End of non−critical Section
+2−1: End of non−critical Section
+6−1: End of critical section
+6−2: Non−critical Section
+7−0: Critical section
+7−0: Inside critical section
+6−2: End of non−critical Section
+7−0: End of critical section
+7−1: Non−critical Section
+5−0: Critical section
+5−0: Inside critical section
+5−0: End of critical section
+5−1: Non−critical Section
+3−0: Critical section
+3−0: Inside critical section
+7−1: End of non−critical Section
+5−1: End of non−critical Section
+3−0: End of critical section
+3−1: Non−critical Section
+0−1: Critical section
+0−1: Inside critical section
+0−1: End of critical section
+0−2: Non−critical Section
+1−1: Critical section
+1−1: Inside critical section
+3−1: End of non−critical Section
+1−1: End of critical section
+1−2: Non−critical Section
+4−1: Critical section
+4−1: Inside critical section
+1−2: End of non−critical Section
+0−2: End of non−critical Section
+4−1: End of critical section
+4−2: Non−critical Section
+2−1: Critical section
+2−1: Inside critical section
+2−1: End of critical section
+2−2: Non−critical Section
+6−2: Critical section
+6−2: Inside critical section
+4−2: End of non−critical Section
+6−2: End of critical section
+6−3: Non−critical Section
+7−1: Critical section
+7−1: Inside critical section
+2−2: End of non−critical Section
+7−1: End of critical section
+7−2: Non−critical Section
+5−1: Critical section
+5−1: Inside critical section
+7−2: End of non−critical Section
+5−1: End of critical section
+5−2: Non−critical Section
+3−1: Critical section
+3−1: Inside critical section
+6−3: End of non−critical Section
+5−2: End of non−critical Section
+3−1: End of critical section
+3−2: Non−critical Section
+1−2: Critical section
+1−2: Inside critical section
+3−2: End of non−critical Section
+1−2: End of critical section
+1−3: Non−critical Section
+0−2: Critical section
+0−2: Inside critical section
+1−3: End of non−critical Section
+0−2: End of critical section
+0−3: Non−critical Section
+4−2: Critical section
+4−2: Inside critical section
+0−3: End of non−critical Section
+4−2: End of critical section
+4−3: Non−critical Section
+2−2: Critical section
+2−2: Inside critical section
+2−2: End of critical section
+2−3: Non−critical Section
+7−2: Critical section
+7−2: Inside critical section
+2−3: End of non−critical Section
+4−3: End of non−critical Section
+7−2: End of critical section
+7−3: Non−critical Section
+6−3: Critical section
+6−3: Inside critical section
+7−3: End of non−critical Section
+6−3: End of critical section
+6−4: Non−critical Section
+5−2: Critical section
+5−2: Inside critical section
+6−4: End of non−critical Section
+5−2: End of critical section
+5−3: Non−critical Section
+3−2: Critical section
+3−2: Inside critical section
+3−2: End of critical section
+3−3: Non−critical Section
+1−3: Critical section
+1−3: Inside critical section
+5−3: End of non−critical Section
+3−3: End of non−critical Section
+1−3: End of critical section
+1−4: Non−critical Section
+0−3: Critical section
+0−3: Inside critical section
+1−4: End of non−critical Section
+0−3: End of critical section
+0−4: Non−critical Section
+2−3: Critical section
+2−3: Inside critical section
+2−3: End of critical section
+2−4: Non−critical Section
+4−3: Critical section
+4−3: Inside critical section
+4−3: End of critical section
+4−4: Non−critical Section
+7−3: Critical section
+7−3: Inside critical section
+2−4: End of non−critical Section
+0−4: End of non−critical Section
+4−4: End of non−critical Section
+7−3: End of critical section
+7−4: Non−critical Section
+6−4: Critical section
+6−4: Inside critical section
+7−4: End of non−critical Section
+6−4: End of critical section
+6−5: Non−critical Section
+5−3: Critical section
+5−3: Inside critical section
+5−3: End of critical section
+5−4: Non−critical Section
+3−3: Critical section
+3−3: Inside critical section
+5−4: End of non−critical Section
+6−5: End of non−critical Section
+3−3: End of critical section
+3−4: Non−critical Section
+1−4: Critical section
+1−4: Inside critical section
+3−4: End of non−critical Section
+1−4: End of critical section
+1−5: Non−critical Section
+2−4: Critical section
+2−4: Inside critical section
+2−4: End of critical section
+2−5: Non−critical Section
+0−4: Critical section
+0−4: Inside critical section
+1−5: End of non−critical Section
+0−4: End of critical section
+0−5: Non−critical Section
+4−4: Critical section
+4−4: Inside critical section
+2−5: End of non−critical Section
+4−4: End of critical section
+4−5: Non−critical Section
+7−4: Critical section
+7−4: Inside critical section
+0−5: End of non−critical Section
+4−5: End of non−critical Section
+7−4: End of critical section
+7−5: Non−critical Section
+5−4: Critical section
+5−4: Inside critical section
+7−5: End of non−critical Section
+5−4: End of critical section
+5−5: Non−critical Section
+6−5: Critical section
+6−5: Inside critical section
+6−5: End of critical section
+6−6: Non−critical Section
+3−4: Critical section
+3−4: Inside critical section
+5−5: End of non−critical Section
+3−4: End of critical section
+3−5: Non−critical Section
+1−5: Critical section
+1−5: Inside critical section
+6−6: End of non−critical Section
+3−5: End of non−critical Section
+1−5: End of critical section
+1−6: Non−critical Section
+2−5: Critical section
+2−5: Inside critical section
+1−6: End of non−critical Section
+2−5: End of critical section
+2−6: Non−critical Section
+0−5: Critical section
+0−5: Inside critical section
+0−5: End of critical section
+0−6: Non−critical Section
+4−5: Critical section
+4−5: Inside critical section
+2−6: End of non−critical Section
+4−5: End of critical section
+4−6: Non−critical Section
+7−5: Critical section
+7−5: Inside critical section
+7−5: End of critical section
+7−6: Non−critical Section
+5−5: Critical section
+5−5: Inside critical section
+0−6: End of non−critical Section
+5−5: End of critical section
+5−6: Non−critical Section
+6−6: Critical section
+6−6: Inside critical section
+4−6: End of non−critical Section
+6−6: End of critical section
+6−7: Non−critical Section
+3−5: Critical section
+3−5: Inside critical section
+5−6: End of non−critical Section
+7−6: End of non−critical Section
+3−5: End of critical section
+3−6: Non−critical Section
+1−6: Critical section
+1−6: Inside critical section
+3−6: End of non−critical Section
+6−7: End of non−critical Section
+1−6: End of critical section
+1−7: Non−critical Section
+2−6: Critical section
+2−6: Inside critical section
+2−6: End of critical section
+2−7: Non−critical Section
+0−6: Critical section
+0−6: Inside critical section
+2−7: End of non−critical Section
+1−7: End of non−critical Section
+0−6: End of critical section
+0−7: Non−critical Section
+4−6: Critical section
+4−6: Inside critical section
+4−6: End of critical section
+4−7: Non−critical Section
+5−6: Critical section
+5−6: Inside critical section
+0−7: End of non−critical Section
+5−6: End of critical section
+5−7: Non−critical Section
+7−6: Critical section
+7−6: Inside critical section
+4−7: End of non−critical Section
+7−6: End of critical section
+7−7: Non−critical Section
+3−6: Critical section
+3−6: Inside critical section
+3−6: End of critical section
+3−7: Non−critical Section
+6−7: Critical section
+6−7: Inside critical section
+5−7: End of non−critical Section
+6−7: End of critical section
+6−8: Non−critical Section
+2−7: Critical section
+2−7: Inside critical section
+2−7: End of critical section
+2−8: Non−critical Section
+1−7: Critical section
+1−7: Inside critical section
+7−7: End of non−critical Section
+3−7: End of non−critical Section
+2−8: End of non−critical Section
+1−7: End of critical section
+1−8: Non−critical Section
+0−7: Critical section
+0−7: Inside critical section
+6−8: End of non−critical Section
+1−8: End of non−critical Section
+0−7: End of critical section
+0−8: Non−critical Section
+4−7: Critical section
+4−7: Inside critical section
+0−8: End of non−critical Section
+4−7: End of critical section
+4−8: Non−critical Section
+5−7: Critical section
+5−7: Inside critical section
+5−7: End of critical section
+5−8: Non−critical Section
+7−7: Critical section
+7−7: Inside critical section
+4−8: End of non−critical Section
+7−7: End of critical section
+7−8: Non−critical Section
+3−7: Critical section
+3−7: Inside critical section
+5−8: End of non−critical Section
+3−7: End of critical section
+3−8: Non−critical Section
+2−8: Critical section
+2−8: Inside critical section
+7−8: End of non−critical Section
+2−8: End of critical section
+2−9: Non−critical Section
+6−8: Critical section
+6−8: Inside critical section
+3−8: End of non−critical Section
+2−9: End of non−critical Section
+6−8: End of critical section
+6−9: Non−critical Section
+1−8: Critical section
+1−8: Inside critical section
+1−8: End of critical section
+1−9: Non−critical Section
+0−8: Critical section
+0−8: Inside critical section
+6−9: End of non−critical Section
+1−9: End of non−critical Section
+0−8: End of critical section
+0−9: Non−critical Section
+4−8: Critical section
+4−8: Inside critical section
+4−8: End of critical section
+4−9: Non−critical Section
+5−8: Critical section
+5−8: Inside critical section
+5−8: End of critical section
+5−9: Non−critical Section
+7−8: Critical section
+7−8: Inside critical section
+4−9: End of non−critical Section
+5−9: End of non−critical Section
+7−8: End of critical section
+7−9: Non−critical Section
+3−8: Critical section
+3−8: Inside critical section
+0−9: End of non−critical Section
+3−8: End of critical section
+3−9: Non−critical Section
+2−9: Critical section
+2−9: Inside critical section
+3−9: End of non−critical Section
+2−9: End of critical section
+6−9: Critical section
+6−9: Inside critical section
+7−9: End of non−critical Section
+6−9: End of critical section
+1−9: Critical section
+1−9: Inside critical section
+1−9: End of critical section
+4−9: Critical section
+4−9: Inside critical section
+4−9: End of critical section
+5−9: Critical section
+5−9: Inside critical section
+5−9: End of critical section
+0−9: Critical section
+0−9: Inside critical section
+0−9: End of critical section
+3−9: Critical section
+3−9: Inside critical section
+3−9: End of critical section
+7−9: Critical section
+7−9: Inside critical section
+7−9: End of critical section
+Valor final del contador 80
+fin
+[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ git add dekker_bounded_semaphore.txt 
+[?2004l[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ git commit -m "ejecucion b_semaphore"
+[?2004l[main 8c8c2ab] ejecucion b_semaphore
+ 1 file changed, 403 insertions(+)
+ create mode 100644 dekker_bounded_semaphore.txt
+[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ git commit -m "ejecucion b_semaphore"add dekker_bounded_semaphore.txt [1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@l[1@o[1@c[1@k
+[?2004l[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ git add dekker_lock.txt commit -m "ejecucion b_semaphore"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"l"o"c"k"
+[?2004l[main 1bd5679] ejecucion lock
+ 1 file changed, 403 insertions(+)
+ create mode 100644 dekker_lock.txt
+[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ git push
+[?2004lEnumerando objetos: 7, listo.
+Contando objetos:  14% (1/7)Contando objetos:  28% (2/7)Contando objetos:  42% (3/7)Contando objetos:  57% (4/7)Contando objetos:  71% (5/7)Contando objetos:  85% (6/7)Contando objetos: 100% (7/7)Contando objetos: 100% (7/7), listo.
+Compresión delta usando hasta 6 hilos
+Comprimiendo objetos:  16% (1/6)Comprimiendo objetos:  33% (2/6)Comprimiendo objetos:  50% (3/6)Comprimiendo objetos:  66% (4/6)Comprimiendo objetos:  83% (5/6)Comprimiendo objetos: 100% (6/6)Comprimiendo objetos: 100% (6/6), listo.
+Escribiendo objetos:  16% (1/6)Escribiendo objetos:  33% (2/6)Escribiendo objetos:  50% (3/6)Escribiendo objetos:  83% (5/6)Escribiendo objetos: 100% (6/6)Escribiendo objetos: 100% (6/6), 2.74 KiB | 936.00 KiB/s, listo.
+Total 6 (delta 2), reusados 0 (delta 0), pack-reusados 0
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), done.[K
+To github.com:Miguel-Caballero-Rod/semaphore_M.git
+   31d01bc..1bd5679  main -> main
+[?2004h]0;alumno@aula431: ~/semaphore_M[01;32malumno@aula431[00m:[01;34m~/semaphore_M[00m$ [?2004l
+exit
+
+Script done on 2023-02-16 10:08:19+01:00 [COMMAND_EXIT_CODE="0"]
